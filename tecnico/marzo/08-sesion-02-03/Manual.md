@@ -99,4 +99,4 @@ Puedes definir enlaces relativos y rutas de imagen en los archivos representados
 Un enlace relativo es un enlace relativo al archivo actual
 
 
-![Img])(/img/headings-rendered.webp)
+![Img])(/img/1.jpg)
