@@ -1,6 +1,6 @@
 Sintaxis de escritura y formato básicos
 
-Encabezados:
+## Encabezados:
 
 Para crear títulos, añade entre uno y seis almohadillas # antes del texto del título. El número de almohadillas determinará el nivel de jerarquía y el tamaño del título.
 
