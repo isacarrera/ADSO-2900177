@@ -97,3 +97,6 @@ Vínculos relativos
 Puedes definir enlaces relativos y rutas de imagen en los archivos representados para ayudar a los lectores a navegar a otros archivos de tu repositorio.
 
 Un enlace relativo es un enlace relativo al archivo actual
+
+
+![Img])(/img/headings-rendered.webp)
