@@ -14,7 +14,7 @@ Al usar dos o más encabezados, GitHub genera automáticamente una tabla de cont
 
 Puedes indicar énfasis con texto en negrita, cursiva, tachado, o de subíndice o superíndice en los campos de comentarios y archivos .md.
 
-**Bold**	*Italic*	~~Strikethrough~~	<sub>Subscript</sub>	<sup>Superscript</sup>
+![img](img/bebe.png)
 
 # Entrecomillado de texto
 
@@ -23,6 +23,8 @@ Puede entrecomillar texto con >.
 > Text that is a quote
 
 Al texto entre comillas se le ha aplicado sangría y tiene un color de tipo diferente.
+
+>Nota: Al visualizar una conversación, puedes citar automáticamente el texto en un comentario resaltándolo y escribiendo R. Para citar un comentario completo; para ello, haz clic en  y, a continuación, en Citar respuesta. Para obtener más información acerca de los métodos abreviados de teclado, consulte "Accesos directos del teclado.
 
 # Código de cita
 
@@ -46,9 +48,17 @@ The background color is `#ffffff` for light mode and `#000000` for dark mode.
 
 Estos son los modelos de color admitidos actualmente.
 
+Color | Sintaxis | Ejemplo | Resultados
+--- | --- | --- | ---
+HEX | \`#RRGGBB\` | \`#0969DA\` | Captura de pantalla de GitHub Markdown que muestra cómo aparece el valor HEX #0969DA con un círculo azul.
+RGB | \`rgb(R,G,B)\` | \`rgb(9, 105, 218)\` | Captura de pantalla de GitHub Markdown que muestra cómo aparece el valor RGB 9, 105, 218 con un círculo azul.
+HSL | \`hsl(H,S,L)\` | \`hsl(212, 92%, 45%)\` | Captura de pantalla de GitHub Markdown que muestra cómo aparece el valor HSL 212, 92 %, 45 % con un círculo azul.
+
 # Vínculos
 
 Puede crear un vínculo en línea escribiendo su texto entre corchetes [ ] y escribiendo la URL entre paréntesis ( ).
+
+
 
 This site was built using [GitHub Pages](https://pages.github.com/).
 
