@@ -58,13 +58,14 @@ HSL | \`hsl(H,S,L)\` | \`hsl(212, 92%, 45%)\` | Captura de pantalla de GitHub Ma
 
 Puede crear un vínculo en línea escribiendo su texto entre corchetes [ ] y escribiendo la URL entre paréntesis ( ).
 
+También puedes crear un hipervínculo de Markdown resaltando el texto y usando el método abreviado de teclado Comando+V. Si quieres reemplazar el texto por el vínculo, usa el método abreviado de teclado Comando+Mayús+V.
+
 This site was built using [GitHub Pages](https://pages.github.com/).
 
 # Enlaces de sección
 
 Puede vincular directamente a una sección en un archivo representado si desliza el puntero sobre el encabezado de la sección para exponer .
 
-También puedes crear un hipervínculo de Markdown resaltando el texto y usando el método abreviado de teclado Comando+V. Si quieres reemplazar el texto por el vínculo, usa el método abreviado de teclado Comando+Mayús+V.
 
 ![img](img/uu.png)
 
@@ -90,15 +91,15 @@ Puedes especificar el tema para el que se muestra una imagen en Markdown mediant
 
 Por ejemplo, en el código siguiente se muestra una imagen del sol para temas claros y una luna para temas oscuros:
 
-
+![img](img/jio.png)
 
 # Listas
 
 Puedes crear una lista sin ordenar. Para ello, coloca -, * o + antes de una o más líneas de texto.
 
 - George Washington
-- John Adams
-- Thomas Jefferson
+* John Adams
++ Thomas Jefferson
 
 Para ordenar tu lista, antecede cada línea con un número.
 
@@ -109,6 +110,10 @@ Para ordenar tu lista, antecede cada línea con un número.
 # Listas anidadas
 
 Puedes crear una lista anidada al dejar sangría en uno o más elementos de la lista debajo de otro elemento.
+
+1. First list item
+   - First nested list item
+     - Second nested list item
 
 # Listas de tareas
 
