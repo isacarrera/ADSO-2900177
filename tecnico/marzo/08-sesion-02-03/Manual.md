@@ -8,7 +8,7 @@ Para crear un encabezado, agrega entre uno y seis símbolos # antes del encabeza
 
 Al usar dos o más encabezados, GitHub genera automáticamente una tabla de contenido a la que puede acceder haciendo clic en  dentro del encabezado del archivo. Todos los títulos de encabezado aparecen en la tabla de contenido, y puede hacer clic en un título para ir a la sección seleccionada.
 
-## Captura de pantalla del archivo LÉAME en el repositorio de código abierto GitHub Docs con el menú desplegable de la tabla de contenido expuesto. El icono de la tabla de contenido aparece en naranja oscuro.
+![Img](img/soyesa.png)
 
 # Estilos de texto
 
