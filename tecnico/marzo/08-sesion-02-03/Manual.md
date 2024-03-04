@@ -198,4 +198,6 @@ Let's rename \*our-new-project\* to \*our-old-project\*.
 
 Cuando ves un archivo de lenguaje de marcado, puedes hacer clic en el Código en la parte superior de este para inhabilitar la representación de lenguaje de marcado y ver en su lugar el código fuente del archivo.
 
+![img](img/op.png)
+
 
