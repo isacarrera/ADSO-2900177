@@ -37,26 +37,26 @@ INICIO
   porcentaje2 = 0.0
   porcentaje3 = 0.0
   total = 0.0
-  Escriba "Digite la primera inversión: "
-  Lea inversion1
+  Escribir "Digite la primera inversión: "
+  Leer inversion1
   
-  Escriba "Digite la segunda inversión: "
-  Lea inversion2
+  Escribir "Digite la segunda inversión: "
+  Leer inversion2
   
-  Escriba "Digite la tercera inversión: "
-  Lea inversion3
+  Escribir "Digite la tercera inversión: "
+  Leer inversion3
   
   total = inversion1 + inversion2 + inversion3
   
-  Escriba "El total de la inversión es de: ", total
+  Escribir "El total de la inversión es de: ", total
   
   porcentaje1 = (inversion1 / total) * 100
   porcentaje2 = (inversion2 / total) * 100
   porcentaje3 = (inversion3 / total) * 100
   
-  Escriba "Porcentaje de la primera inversión: ", porcentaje1, "%"
-  Escriba "Porcentaje de la segunda inversión: ", porcentaje2, "%"
-  Escriba "Porcentaje de la tercera inversión: ", porcentaje3, "%"
+  Escribir "Porcentaje de la primera inversión: ", porcentaje1, "%"
+  Escribir "Porcentaje de la segunda inversión: ", porcentaje2, "%"
+  Escribir "Porcentaje de la tercera inversión: ", porcentaje3, "%"
 
 FIN
 ```
@@ -83,8 +83,114 @@ porcientoEF = 0.0
 porcientoTQ = 0.0
 porcientoEQ = 0.0
 
-Escriba " Digite la calificacion de su examen de matematicas"
-Lea examenM
+Escribir "Digite la calificación del examen de Matemáticas:"
+    Leer examenM
+    Escribir "Digite la calificación de la tarea 1 de Matemáticas:"
+    Leer tareasM1
+    Escribir "Digite la calificación de la tarea 2 de Matemáticas:"
+    Leer tareasM2
+    Escribir "Digite la calificación de la tarea 3 de Matemáticas:"
+    Leer tareasM3
+    
+    promedioM = (examenM * 0.9) + ((tareasM1 + tareasM2 + tareasM3) / 3 * 0.1)
+    
+    Escribir "El promedio de Matemáticas es:", promedioM
+    
+    Escribir "Digite la calificación del examen de Física:"
+    Leer examenF
+    Escribir "Digite la calificación de la tarea 1 de Física:"
+    Leer tareasF1
+    Escribir "Digite la calificación de la tarea 2 de Física:"
+    Leer tareasF2
+    
+    promedioF = (examenF * 0.8) + ((tareasF1 + tareasF2) / 2 * 0.2)
+    
+    Escribir "El promedio de Física es:", promedioF
+    
+    Escribir "Digite la calificación del examen de Química:"
+    Leer examenQ
+    Escribir "Digite la calificación de la tarea 1 de Química:"
+    Leer tareasQ1
+    Escribir "Digite la calificación de la tarea 2 de Química:"
+    Leer tareasQ2
+    Escribir "Digite la calificación de la tarea 3 de Química:"
+    Leer tareasQ3
+    
+    promedioQ = (examenQ * 0.85) + ((tareasQ1 + tareasQ2 + tareasQ3) / 3 * 0.15)
+    
+    Escribir "El promedio de Química es:", promedioQ
+    
+    promedioGeneral = (promedioM + promedioF + promedioQ) / 3
+    
+    Escribir "El promedio general en las tres materias es:", promedioGeneral
+    
+FIN
+
+```
+
+```
+INICIO
+Definir numero como real
+
+numero = 0.0
+
+Escriba "Dijite un numero: "
+Lea numero
+
+Si numero >0 Entonces
+
+Escriba "El numero es positivo"
+SI NO
+
+Escriba "El numero es negativo"
+Fin si
+
+FIN
+```
+
+```
+INICIO
+
+Definir numero COMO real
+numero = 0.0
+
+Escribir "Digite un numero: "
+Leer numero
+
+Si numero >200 entonces
+Escriba "El numero es mayor a 200"
+SI NO
+Escribir " El numero es menor o igual a 200"
+
+FIN SI
+
+Fin
+```
+
+```
+INICIO
+
+Definir numero COMO REAL
+numero = 0.0
+
+Escriba "Dijite un numero: "
+Leer numero
+
+Si numero >=50 y numero <=100
+Escriba "El numero esta en el rango de 50 y 100"
+
+SI NO
+Escriba "El numero no esta en el rango de 50 y 100"
+FIN SI
+
+FIN
+```
+
+
+
+
+
+
 
 
 
