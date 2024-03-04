@@ -80,11 +80,17 @@ Puede mostrar una imagen agregando ! y ajustar el texto alternativo en [ ]. Lueg
 
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
 
+Aquí tienes algunos ejemplos para utilizar enlaces relativos para mostrar una imagen.
 
+![img](img/oo.png)
 
 # Especificar un tema en el que se muestra una imagen
 
 Puedes especificar el tema para el que se muestra una imagen en Markdown mediante el elemento <picture> de HTML en combinación con la característica de elementos multimedia prefers-color-scheme.
+
+Por ejemplo, en el código siguiente se muestra una imagen del sol para temas claros y una luna para temas oscuros:
+
+
 
 # Listas
 
