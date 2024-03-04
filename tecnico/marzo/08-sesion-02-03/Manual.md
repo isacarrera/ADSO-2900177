@@ -58,13 +58,15 @@ HSL | \`hsl(H,S,L)\` | \`hsl(212, 92%, 45%)\` | Captura de pantalla de GitHub Ma
 
 Puede crear un vínculo en línea escribiendo su texto entre corchetes [ ] y escribiendo la URL entre paréntesis ( ).
 
-
-
 This site was built using [GitHub Pages](https://pages.github.com/).
 
 # Enlaces de sección
 
 Puede vincular directamente a una sección en un archivo representado si desliza el puntero sobre el encabezado de la sección para exponer .
+
+También puedes crear un hipervínculo de Markdown resaltando el texto y usando el método abreviado de teclado Comando+V. Si quieres reemplazar el texto por el vínculo, usa el método abreviado de teclado Comando+Mayús+V.
+
+![img](img/uu.png)
 
 # Vínculos relativos
 
@@ -77,6 +79,8 @@ Puedes definir enlaces relativos y rutas de imagen en los archivos representados
 Puede mostrar una imagen agregando ! y ajustar el texto alternativo en [ ]. Luego, escribe el vínculo de la imagen entre paréntesis ().
 
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
+
+
 
 # Especificar un tema en el que se muestra una imagen
 
