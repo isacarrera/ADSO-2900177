@@ -1,103 +1,139 @@
-Sintaxis de escritura y formato básicos
+# Encabezados
 
-## Encabezados:
+Para crear un encabezado, agrega entre uno y seis símbolos # antes del encabezado del texto. El número de # que utilices determinará el nivel jerárquico y el tamaño tipográfico del encabezado.
 
-Para crear títulos, añade entre uno y seis almohadillas # antes del texto del título. El número de almohadillas determinará el nivel de jerarquía y el tamaño del título.
-![Img](img/Captura.png)
+## Captura de pantalla de GitHub Markdown en la que se muestran los encabezados h1, h2 y h3 de ejemplo, que descienden en el tamaño de tipo y el peso visual para indicar el nivel de jerarquía descendente.
 
-# Un título de primer nivel
-## Un título de segundo nivel
-### Un título de tercer nivel
+Al usar dos o más encabezados, GitHub genera automáticamente una tabla de contenido a la que puede acceder haciendo clic en  dentro del encabezado del archivo. Todos los títulos de encabezado aparecen en la tabla de contenido, y puede hacer clic en un título para ir a la sección seleccionada.
 
-Captura de pantalla de GitHub Markdown que muestra ejemplos de títulos h1, h2 y h3, disminuyendo en tamaño y peso para indicar la jerarquía.
+## Captura de pantalla del archivo LÉAME en el repositorio de código abierto GitHub Docs con el menú desplegable de la tabla de contenido expuesto. El icono de la tabla de contenido aparece en naranja oscuro.
 
-Al utilizar dos o más títulos, GitHub automáticamente genera una tabla de contenido que puedes acceder haciendo clic en el icono de tabla de contenido en el encabezado del archivo. Todos los títulos aparecen en la tabla de contenido y puedes hacer clic en uno para ir a la sección correspondiente.
+# Estilos de texto
 
-Captura de pantalla de un archivo README en el repositorio de GitHub Docs con el menú desplegable de la tabla de contenido expuesto. El icono de la tabla de contenido aparece en naranja oscuro.
+Puedes indicar énfasis con texto en negrita, cursiva, tachado, o de subíndice o superíndice en los campos de comentarios y archivos .md.
 
-Estilos de texto
-Puedes destacar texto usando negrita, cursiva, tachado, subíndice o superíndice en comentarios y archivos .md.
+**Bold**	*Italic*	~~Strikethrough~~	<sub>Subscript</sub>	<sup>Superscript</sup>
 
-Estilo | Sintaxis | Atajos de teclado | Ejemplo | Resultado
---- | --- | --- | --- | ---
-Negrita | ** ** o __ __ | Command+B (Mac) o Ctrl+B (Windows/Linux) | **Este es texto en negrita** | Este es texto en negrita
-Cursiva | * * o _ _ | Command+I (Mac) o CtrI+ (Windows/Linux) | _Este texto está en cursiva_ | Este texto está en cursiva
-Tachado | ~~ ~~ | Ninguno | ~~Este texto estaba equivocado~~ | Este texto estaba equivocado
-Cursiva y negrita anidadas | ** ** y _ _ | Ninguno | **Este texto es _extremadamente_ importante** | Este texto es extremadamente importante
-Todo en negrita y cursiva | *** *** | Ninguno | ***Todo este texto es importante*** | Todo este texto es importante
-Subíndice | <sub> </sub> | Ninguno | Esto es un <sub>subíndice</sub> | Esto es un subíndice
-Superíndice | <sup> </sup> | Ninguno | Esto es un <sup>superíndice</sup> | Esto es un superíndice
+# Entrecomillado de texto
 
-Texto entre comillas
-Puedes citar texto usando el símbolo >.
+Puede entrecomillar texto con >.
 
-Texto que no es una cita
+> Text that is a quote
 
-> Texto que es una cita
+Al texto entre comillas se le ha aplicado sangría y tiene un color de tipo diferente.
 
-El texto citado tendrá sangría y un color de texto diferente.
+# Código de cita
 
-Captura de pantalla de GitHub Markdown que muestra un ejemplo de texto citado. La cita tiene sangría con una línea vertical a la izquierda y el texto es gris oscuro en lugar de negro.
+Puedes indicar un código o un comando dentro de un enunciado con comillas simples.
 
-Código de cita
-Puedes indicar código o comandos usando comillas simples. El texto dentro de las comillas simples no se formateará.
+Use `git status` to list all new or modified files that haven't yet been committed.
 
-Usa `git status` para listar todos los archivos nuevos o modificados que aún no se han confirmado.
+Para formatear código o texto en su propio bloque distintivo, usa comillas triples.
 
-Captura de pantalla de GitHub Markdown que muestra cómo se ven los caracteres rodeados por acentos graves. Las palabras "git status" aparecen en una fuente de ancho fijo, resaltadas en gris claro.
-
-Para formatear código o texto en su propio bloque, usa comillas triples.
-
-Algunos comandos básicos de Git son:
 ```
 git status
 git add
 git commit
 ```
 
-Captura de pantalla de GitHub Markdown que muestra un bloque de código. Las palabras "git status", "git add" y "git commit" aparecen en una fuente de ancho fijo, resaltadas en gris claro.
+# Modelos de color compatibles
 
-Para obtener más información, consulta "Creación y resaltado de bloques de código".
+En los problemas, las solicitudes de incorporación de cambios y los debates, puedes llamar a los colores dentro de una oración mediante comillas simples.
 
-Si editas fragmentos de código y tablas con frecuencia, puedes beneficiarte al habilitar una fuente de ancho fijo en todos los campos de comentarios de GitHub. Para obtener más información, consulta "Acerca de escribir y dar formato en GitHub".
+The background color is `#ffffff` for light mode and `#000000` for dark mode.
 
-Modelos de color compatibles
-En problemas, solicitudes de extracción y debates, puedes llamar a colores usando comillas simples. Un modelo de color compatible mostrará una visualización del color.
+Estos son los modelos de color admitidos actualmente.
 
-El color de fondo es `#ffffff` para el modo claro y `#000000` para el modo oscuro.
+# Vínculos
 
-Captura de pantalla de GitHub Markdown que muestra cómo los valores HEX dentro de los acentos graves crean pequeños círculos de color. #ffffff muestra un círculo blanco y #000000 muestra un círculo negro.
+Puede crear un vínculo en línea escribiendo su texto entre corchetes [ ] y escribiendo la URL entre paréntesis ( ).
 
-Estos son los modelos de color actualmente admitidos.
+This site was built using [GitHub Pages](https://pages.github.com/).
 
-Color | Sintaxis | Ejemplo | Resultados
---- | --- | --- | ---
-HEX | \`#RRGGBB\` | \`#0969DA\` | Captura de pantalla de GitHub Markdown que muestra cómo aparece el valor HEX #0969DA con un círculo azul.
-RGB | \`rgb(R,G,B)\` | \`rgb(9, 105, 218)\` | Captura de pantalla de GitHub Markdown que muestra cómo aparece el valor RGB 9, 105, 218 con un círculo azul.
-HSL | \`hsl(H,S,L)\` | \`hsl(212, 92%, 45%)\` | Captura de pantalla de GitHub Markdown que muestra cómo aparece el valor HSL 212, 92 %, 45 % con un círculo azul.
+# Enlaces de sección
 
-Notas:
-- Un modelo de color admitido no puede tener espacios iniciales o finales dentro de las comillas simples.
-- La visualización del color solo se admite en problemas, solicitudes de extracción y debates.
+Puede vincular directamente a una sección en un archivo representado si desliza el puntero sobre el encabezado de la sección para exponer .
 
-Enlaces
-Puedes crear un enlace en línea escribiendo el texto entre corchetes [] y la URL entre paréntesis (). También puedes usar Command+K para crear un enlace. Cuando tengas texto seleccionado, puedes pegar una URL del portapapeles para crear automáticamente un enlace.
+# Vínculos relativos
 
-Este sitio fue construido usando [GitHub Pages](https://pages.github.com/).
+Puedes definir enlaces relativos y rutas de imagen en los archivos representados para ayudar a que los lectores naveguen hasta otros archivos de tu repositorio.
 
-Captura de pantalla de GitHub Markdown que muestra cómo el texto entre corchetes, "GitHub Pages", aparece como un hipervínculo azul.
+[Contribution guidelines for this project](docs/CONTRIBUTING.md)
 
-Nota: GitHub crea automáticamente enlaces cuando escribes direcciones URL válidas en un comentario.
+# Imágenes
 
-Enlaces de sección
-Puedes vincularte directamente a una sección en un archivo representado pasando el ratón por encima del encabezado de la sección para mostrar .
+Puede mostrar una imagen agregando ! y ajustar el texto alternativo en [ ]. Luego, escribe el vínculo de la imagen entre paréntesis ().
 
-Captura de pantalla de un archivo README en un repositorio. A la izquierda de un encabezado de sección, se resalta un icono de vínculo en naranja oscuro.
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
 
-Vínculos relativos
-Puedes definir enlaces relativos y rutas de imagen en los archivos representados para ayudar a los lectores a navegar a otros archivos de tu repositorio.
+# Especificar un tema en el que se muestra una imagen
 
-Un enlace relativo es un enlace relativo al archivo actual
+Puedes especificar el tema para el que se muestra una imagen en Markdown mediante el elemento <picture> de HTML en combinación con la característica de elementos multimedia prefers-color-scheme.
 
+# Listas
+
+Puedes crear una lista sin ordenar. Para ello, coloca -, * o + antes de una o más líneas de texto.
+
+- George Washington
+- John Adams
+- Thomas Jefferson
+
+Para ordenar tu lista, antecede cada línea con un número.
+
+1. James Madison
+2. James Monroe
+3. John Quincy Adams
+
+# Listas anidadas
+
+Puedes crear una lista anidada al dejar sangría en uno o más elementos de la lista debajo de otro elemento.
+
+# Listas de tareas
+
+Para crear una lista de tareas, debe añadir como prefijo un guion y espacio, seguido de [ ] a los elementos de la lista. Para marcar una tarea como completada, use [x].
+
+# Mencionar personas y equipos
+
+Puede mencionar a una persona o equipo en GitHub, Para ello, escriba @ junto con su nombre de usuario o equipo.
+
+# Hacer referencia a propuestas y solicitudes de extracción
+
+Puede mencionar una lista de las incidencias y solicitudes de incorporación de cambios dentro del repositorio escribiendo #.
+
+# Hacer referencia a recursos externos
+
+Si se configuran las referencias autovinculadas personalizadas para un repositorio, entonces las referencias a recursos externos, como un informe de problemas de JIRA o un ticket de Zendesk, se convertirán en vínculos acortados.
+
+# Cargar activos
+
+Puedes cargar activos como imágenes si las arrastras y sueltas, las seleccionas de un buscador de archivos o si las pegas.
+
+# Usar emojis
+
+Puedes agregar emoji a la escritura escribiendo :EMOJICODE:.
+
+# Párrafos
+
+Puedes crear un nuevo párrafo al dejar una línea en blanco entre las líneas de texto.
+
+# Notas al pie
+
+Puedes agregar notas al pie para tu contenido si utilizas esta sintaxis de corchetes.
+
+# Alertas
+
+Las alertas son una extensión Markdown basada en la sintaxis blockquote que puede utilizar para resaltar la información crítica.
+
+# Ocultar el contenido con comentarios
+
+Puedes decirle a GitHub que oculte el contenido del lenguaje de marcado interpretado colocando el contenido en un comentario de HTML.
+
+# Ignorar formato de Markdown
+
+Puede pedirle a GitHub que ignore (u omita) el formato de Markdown escribiendo \ antes del carácter de Markdown.
+
+# Inhabilitar la representación del lenguaje de marcado
+
+Cuando ves un archivo de lenguaje de marcado, puedes hacer clic en el Código en la parte superior de este para inhabilitar la representación de lenguaje de marcado y ver en su lugar el código fuente del archivo.
 
 
