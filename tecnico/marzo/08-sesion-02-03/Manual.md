@@ -119,9 +119,15 @@ Puedes crear una lista anidada al dejar sangría en uno o más elementos de la l
 
 Para crear una lista de tareas, debe añadir como prefijo un guion y espacio, seguido de [ ] a los elementos de la lista. Para marcar una tarea como completada, use [x].
 
+![img](img/yu.png)
+
 # Mencionar personas y equipos
 
 Puede mencionar a una persona o equipo en GitHub, Para ello, escriba @ junto con su nombre de usuario o equipo.
+
+>Nota: Solo se notificará a un usuario acerca de una mención si este tiene acceso de lectura al repositorio y, si el repositorio pertenece a una organización, el usuario es miembro de la organización.
+
+@github/support What do you think about these updates?
 
 # Hacer referencia a propuestas y solicitudes de extracción
 
@@ -137,7 +143,9 @@ Puedes cargar activos como imágenes si las arrastras y sueltas, las seleccionas
 
 # Usar emojis
 
-Puedes agregar emoji a la escritura escribiendo :EMOJICODE:.
+Puedes agregar emoji a la escritura escribiendo :
+
+@octocat :+1: This PR looks great - it's ready to merge! :shipit:
 
 # Párrafos
 
@@ -147,17 +155,44 @@ Puedes crear un nuevo párrafo al dejar una línea en blanco entre las líneas d
 
 Puedes agregar notas al pie para tu contenido si utilizas esta sintaxis de corchetes.
 
+Here is a simple footnote[^1].
+
+A footnote can also have multiple lines[^2].
+
+[^1]: My reference.
+[^2]: To add line breaks within a footnote, prefix new lines with 2 spaces.
+  This is a second line.
+
 # Alertas
 
 Las alertas son una extensión Markdown basada en la sintaxis blockquote que puede utilizar para resaltar la información crítica.
+
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
 
 # Ocultar el contenido con comentarios
 
 Puedes decirle a GitHub que oculte el contenido del lenguaje de marcado interpretado colocando el contenido en un comentario de HTML.
 
+<!-- This content will not appear in the rendered Markdown -->
+
 # Ignorar formato de Markdown
 
 Puede pedirle a GitHub que ignore (u omita) el formato de Markdown escribiendo \ antes del carácter de Markdown.
+
+Let's rename \*our-new-project\* to \*our-old-project\*.
 
 # Inhabilitar la representación del lenguaje de marcado
 
