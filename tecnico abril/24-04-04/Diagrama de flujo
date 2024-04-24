@@ -1,1 +1,41 @@
+# Adivina el Número
+
+¡Intenta adivinar el número secreto que estoy pensando! Pero apresúrate, ¡solo tienes 10 intentos!
+
+## Descripción
+
+En este juego, se te pedirá que adivines un número secreto entre 1 y 50. Tienes un total de 10 intentos para acertar el número correcto. Después de cada intento, se te dará una pista si el número ingresado es demasiado alto o demasiado bajo.
+
+## Proceso
+
+Proceso Adivina_Numero
+	
+    Definir intentos como Entero
+    Definir num_secreto como Entero
+    Definir num_ingresado como Entero
+    
+    intentos <- 10
+    num_secreto <- azar(50) + 1
+    
+    Escribir "Adivine el numero (de 1 a 50):"
+    Leer num_ingresado
+    
+    Mientras num_secreto <> num_ingresado Y intentos > 1 Hacer
+        Si num_secreto > num_ingresado Entonces
+            Escribir "Muy bajo"
+        Sino 
+            Escribir "Muy alto"
+        FinSi
+        intentos <- intentos - 1
+        Escribir "Le quedan ", intentos, " intentos:"
+        Leer num_ingresado
+    FinMientras
+    
+    Si num_secreto = num_ingresado Entonces
+        Escribir "¡Felicidades! has adivinó en ", 11 - intentos, " intentos."
+    Sino
+        Escribir "El número era: ", num_secreto
+    FinSi
+    
+FinProceso
 
