@@ -1,15 +1,15 @@
-# Adivina el Número
+1.
+Adivina el Número
 
-¡Intenta adivinar el número secreto que estoy pensando! Pero apresúrate, ¡solo tienes 10 intentos!
+Intenta adivinar el número secreto que estoy pensando! Pero apresúrate, solo tienes 10 intentos
 
-## Descripción
+Descripción
 
 En este juego, se te pedirá que adivines un número secreto entre 1 y 50. Tienes un total de 10 intentos para acertar el número correcto. Después de cada intento, se te dará una pista si el número ingresado es demasiado alto o demasiado bajo.
 
-## Proceso
 
 Proceso Adivina_Numero
-	
+
     Definir intentos como Entero
     Definir num_secreto como Entero
     Definir num_ingresado como Entero
@@ -39,3 +39,171 @@ Proceso Adivina_Numero
     
 FinProceso
 
+2.
+Menú
+
+Este es un simple menú que te permite seleccionar entre diferentes opciones y te proporciona recomendaciones relacionadas con literatura, cine y videojuegos, o salir del menú.
+
+Descripción
+
+El menú presenta las siguientes opciones:
+1. **Literatura**: Ofrece una lista de lecturas recomendadas.
+2. **Cine**: Proporciona una lista de películas recomendadas.
+3. **Videojuegos**: Presenta una lista de videojuegos clásicos recomendados.
+4. **Salir**: Finaliza el programa.
+
+Proceso menu
+
+	Definir Op como Entero
+    Repetir
+        Limpiar Pantalla
+        Escribir "Menú"
+        Escribir "   1. Literatura"
+        Escribir "   2. Cine"
+        Escribir "   3. Videojuegos"
+        Escribir "   4. Salir"
+        Escribir "Elija una opción (1-5): "
+        Leer OP
+        Segun OP Hacer
+            1:
+                Escribir "Lecturas recomendables:"
+                Escribir " + Cien años de soledad (Gabriel García Márquez)"
+                Escribir " + El nombre del viento (Patrick Rothfuss)"
+                Escribir " + Matar un ruiseñor (Harper Lee)"
+            2:
+                Escribir "Películas recomendables:"
+                Escribir " + Matrix (1999)"
+                Escribir " + El último samuray (2003)"
+                Escribir " + Cars (2006)"
+            3:
+                Escribir "Videojuegos clásicos recomendables"
+                Escribir " + Día del tentáculo (LucasArts, 1993)"
+                Escribir " + Terminal Velocity (Terminal Reality/3D Realms, 1995)"
+                Escribir " + Death Rally (Remedy/Apogee, 1996)"
+            4:
+                Escribir "Gracias, vuelva prontos"
+            De otro modo:
+                Escribir "Opción no válida"
+        FinSegun
+        Escribir "Presione enter para continuar"
+        Esperar Tecla
+    Hasta Que OP=4
+FinProceso
+
+3.
+Supermercado
+
+Este proceso te permite comparar precios de un producto en tres supermercados diferentes y te muestra cuál es el precio más bajo.
+
+ Descripción
+
+El proceso solicita el nombre del producto y los precios del mismo en tres supermercados diferentes. Luego, determina cuál es el precio más bajo y lo muestra al usuario.
+
+Proceso supermercado
+    Definir Producto como Cadena
+    Definir Precio1 como Real   
+    Definir Precio2 como Real   
+    Definir Precio3 como Real   
+    Definir PrecioMenor como Real    
+	
+    Mostrar "Ingrese el nombre del producto:"
+    Leer Producto
+	
+    Mostrar "Introduzca el precio del producto ", Producto, " en el supermercado número 1, en pesos colombianos:"
+    Leer Precio1
+	
+    Mostrar "Introduzca el precio del producto ", Producto, " en el supermercado número 2, en pesos colombianos:"
+    Leer Precio2
+	
+    Mostrar "Introduzca el precio del producto ", Producto, " en el supermercado número 3, en pesos colombianos:"
+    Leer Precio3
+	
+    PrecioMenor = Precio1
+	
+    Si Precio2 < PrecioMenor Entonces
+        PrecioMenor = Precio2
+    FinSi
+    Si Precio3 < PrecioMenor Entonces
+        PrecioMenor = Precio3
+    FinSi
+	
+    Mostrar "El precio menor del producto ", Producto, " es ", PrecioMenor, " pesos colombianos"
+FinProceso
+
+4.
+Descripcion
+Este algoritmo permite adivinar una contraseña con hasta tres intentos. Si la contraseña ingresada es incorrecta, proporciona una pista sobre la longitud de la contraseña antes de intentar nuevamente.
+
+
+Algoritmo AdivinarContraseñaConPistas
+    Definir contador Como Entero
+    Definir contraseña Como Cadena
+    Definir longitudContraseña Como Entero
+	
+    contador <- 1
+    longitudContraseña <- Longitud("algoritmodetarea")
+	
+    Mientras contador <= 3 Hacer
+        Escribir "Ingresa una contraseña:"
+        Leer contraseña
+        
+        Si contraseña == "algoritmodetarea" Entonces
+            Escribir "¡La contraseña es correcta!"
+            
+        Sino
+            Si contador == 3 Entonces
+                Escribir "Has fallado los 3 intentos"
+            Sino
+                Escribir "Contraseña incorrecta. Aquí tienes una pista: La contraseña tiene", longitudContraseña, "caracteres."
+            FinSi
+        FinSi
+        
+        contador <- contador + 1
+    FinMientras
+FinAlgoritmo
+
+5.
+Está diseñado para calcular el precio total de una hamburguesa en pesos colombianos, permitiendo al usuario elegir qué ingredientes desea agregar a su hamburguesa.
+
+
+Algoritmo Calcular_Precio_Hamburguesa
+	
+    Definir precio_base_hamburguesa como real
+    Definir total como real 
+    Definir lechuga como caracter 
+    Definir tomate como caracter 
+    Definir queso como caracter
+    Definir cebolla como caracter
+	
+    precio_base_hamburguesa <- 12000.00  
+    total <- precio_base_hamburguesa
+    
+    Imprimir "¡Bienvenido a nuestra hamburguesería!"
+    
+    Imprimir "¿Desea lechuga en su hamburguesa? (S/N): "
+    Leer lechuga
+    Si lechuga == "S" o lechuga == "s" entonces
+        total <- total + 1500.00  
+    Fin Si
+    
+    Imprimir "¿Desea tomate en su hamburguesa? (S/N): "
+    Leer tomate
+    Si tomate == "S" o tomate == "s" entonces
+        total <- total + 1500.00  
+    Fin Si
+    
+    Imprimir "¿Desea queso en su hamburguesa? (S/N): "
+    Leer queso
+    Si queso == "S" o queso == "s" entonces
+        total <- total + 3000.00  
+    Fin Si
+    
+    Imprimir "¿Desea cebolla en su hamburguesa? (S/N): "
+    Leer cebolla
+    Si cebolla == "S" o cebolla == "s" entonces
+        total <- total + 2000.00  
+    Fin Si
+    
+    Imprimir "El precio total de su hamburguesa es: ", total, " pesos colombianos"
+    
+Fin Algoritmo
