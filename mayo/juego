@@ -3,7 +3,10 @@ Documentación de software
  Isabella carrera cabrera 2024
 
 Planteamiento
-Es un juego de memoria donde se colocan  las cartas boca abajo y los jugadores deben voltearlas para emparejarlas. Las cartas pueden tener imágenes de animales o números desordenados. El objetivo es que los jugadores memoricen las cartas y las seleccionen correctamente para formar pares. Esto ayuda a estimular el cerebro, mejorar la memoria y proporcionar diversión.
+Es un juego de memoria donde se colocan  las cartas boca abajo y los jugadores deben voltearlas para emparejarlas. 
+Las cartas pueden tener imágenes de animales o números desordenados. El objetivo es que los jugadores memoricen
+las cartas y las seleccionen correctamente para formar pares. Esto ayuda a estimular el cerebro, 
+mejorar la memoria y proporcionar diversión a la hora de jugar./
 
 Funcionalidades 
 • Selección de Cartas: Los jugadores pueden seleccionar y voltear cartas para revelar lo que hay. 
