@@ -1,0 +1,15 @@
+Documentación de software
+ Juego: Memoria
+ Isabella carrera cabrera 2024
+
+Planteamiento
+Es un juego de memoria donde se colocan  las cartas boca abajo y los jugadores deben voltearlas para emparejarlas. Las cartas pueden tener imágenes de animales o números desordenados. El objetivo es que los jugadores memoricen las cartas y las seleccionen correctamente para formar pares. Esto ayuda a estimular el cerebro, mejorar la memoria y proporcionar diversión.
+
+Funcionalidades 
+• Selección de Cartas: Los jugadores pueden seleccionar y voltear cartas para revelar lo que hay. 
+• Mostrar Imágenes de Animales: Las cartas pueden mostrar imágenes de diferentes animales.
+ • Mezclar Números: Las cartas pueden tener números desordenados que los jugadores deben memorizar. 
+• Niveles de Dificultad: El juego ofrece diferentes niveles de dificultad para desafiar a los jugadores. 
+• Sistema de Pistas: Ofrece pistas limitadas para ayudar a los jugadores
+ • Temporizador: Registra el tiempo que tarda el jugador en completar el juego. 
+• Inicio de Sesión: Los 
