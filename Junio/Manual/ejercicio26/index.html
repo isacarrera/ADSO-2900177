@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tablas de Multiplicar</title>
+</head>
+<body>
+
+<script>
+  let tabla = 1;
+  let pares = 0;
+  let impares = 0;
+
+  while (tabla <= 5) {
+    let multiplicador = 1;
+    while (multiplicador <= 5) {
+      let resultado = tabla * multiplicador;
+      let etiqueta = tabla + "x" + multiplicador + "=" + resultado;
+
+      if (resultado % 2 === 0) {
+        console.log(etiqueta + " - buzz");
+        pares++;
+      } else {
+        console.log(etiqueta + " - bass");
+        impares++;
+      }
+      multiplicador++;
+    }
+    tabla++;
+  }
+
+  console.log("Cantidad de números pares:", pares);
+  console.log("Cantidad de números impares:", impares);
+</script>
+
+</body>
+</html>

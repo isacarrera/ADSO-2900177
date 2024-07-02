@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Verificación de Edad</title>
+</head>
+<body>
+
+<script>
+  let edadPersona1 = 20;
+  let edadPersona2 = 17;
+  let edadPersona3 = 25;
+
+  esMayorEdad1 = edadPersona1 >= 18;
+  esMayorEdad2 = edadPersona2 >= 18;
+  esMayorEdad3 = edadPersona3 >= 18;
+
+  promedioEdades = (edadPersona1 + edadPersona2 + edadPersona3) / 3;
+
+  mayoriaEdad = 18;
+
+  estaEncimaMayoriaEdad = promedioEdades >= mayoriaEdad;
+
+  console.log("Persona 1 es mayor de edad:", esMayorEdad1);
+  console.log("Persona 2 es mayor de edad:", esMayorEdad2);
+  console.log("Persona 3 es mayor de edad:", esMayorEdad3);
+  console.log("Promedio de edades:", promedioEdades);
+  console.log("El promedio de edades está por encima de la mayoría de edad:", estaEncimaMayoriaEdad);
+</script>
+
+</body>
+</html>

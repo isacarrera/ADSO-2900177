@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cálculo de Pago Total</title>
+</head>
+<body>
+
+<script>
+  let salario = 100000;
+  let salarioMinimo = 1000000;
+  subsidioTransporte = salario > (2 * salarioMinimo) ? 106454 : 0;
+  salud = salario * 0.12;
+  pension = salario * 0.16;
+  arl = salario * 0.052;
+  retencionAdicional = salario > (4 * salarioMinimo) ? salario * 0.04 : 0;
+  totalDeducible = salud + pension + arl - retencionAdicional;
+  totalPaga = salario + subsidioTransporte - totalDeducible;
+
+  console.log("Salario de la persona:", salario);
+  console.log("Subsidio de transporte:", subsidioTransporte);
+  console.log("Deducciones:");
+  console.log("   - Salud:", salud);
+  console.log("   - Pensión:", pension);
+  console.log("   - ARL:", arl);
+  console.log("   - Retención adicional:", retencionAdicional);
+  console.log("   - Total deducible:", totalDeducible);
+  console.log("Total a pagar:", totalPaga);
+</script>
+
+</body>
+</html>

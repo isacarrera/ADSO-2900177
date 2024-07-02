@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pago total y descuentos</title>
+</head>
+<body>
+
+<script>
+  let diasTrabajados = 20;
+  let valorDia = 50;
+
+  sueldo = diasTrabajados * valorDia;
+  salud = sueldo * 0.12;
+  pension = sueldo * 0.16;
+  arl = sueldo * 0.052;
+  descuentoTotal = salud + pension + arl;
+
+  pagoTotal = sueldo - descuentoTotal;
+
+  console.log("El pago total de la persona es:", pagoTotal);
+  console.log("El descuento por salud es:", salud);
+  console.log("El descuento por pensión es:", pension);
+  console.log("El descuento por ARL es:", arl);
+</script>
+
+</body>
+</html>
