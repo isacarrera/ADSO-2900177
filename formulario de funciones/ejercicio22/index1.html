@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <script src="js/script.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="js/operaciones.js"></script>
+</head>
+<body>
+    <div class="container" style="margin-top: 15%;">
+      <h2 class="titulo">Formulario de la tabla del 9 con for</h2>
+        <div class="col-10 row forma">
+            <div class="col-6 numeros">
+                <form class="row g-3 needs-validation" onsubmit=" return mostrarTabla();" novalidate>
+                    <div class="col-md-4">
+                      <label for="validationCustom01" class="form-label">Ingrese el numero </label>
+                      <input type="number" class="form-control" id="txtContar" name="txtContar"  required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                    </div>
+                  
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                        <div class="invalid-feedback">
+                          Complete los espacios en blanco
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button class="btn btn-primary" type="submit">Calcular <i class="fa-regular fa-paper-plane"></i></button>
+                    </div>
+                  </form>
+            </div>
+
+            <div class="col-4 respuesta">
+              <div id="resultadoTabla"></div>
+            </div>
+        </div>
+    </div>
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>

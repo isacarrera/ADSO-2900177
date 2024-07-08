@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer Ejercicio</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <script src="js/script.js"></script>
+    <script src="js/saludo.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+</head>
+<body>
+    <div class="container" style="margin-top: 15%;">
+        <h2 class="titulo">Formulario Saludo</h2>
+        <div class="col-10 row forma">
+            <div class="col-6 formulario">
+                <form class="row g-3 needs-validation" novalidate onsubmit="return saludar();">
+                    <div class="col-md-4">
+                        <label for="txtSaludo" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="txtSaludo" name="txtSaludo" required>
+                        <div class="valid-feedback">
+                            Correcto!
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                            <label class="form-check-label" for="invalidCheck">
+                                Aceptar terminos y condiciones
+                            </label>
+                            <div class="invalid-feedback">
+                                Rellene los espacios en blanco
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button class="btn btn-primary" type="submit">Registrar <i class="fa-regular fa-paper-plane"></i></button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-4 respuesta">
+                <div id="saludo"></div>
+            </div>
+        </div>
+    </div>
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>
