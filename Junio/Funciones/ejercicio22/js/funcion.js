@@ -1,5 +1,5 @@
 /**imprimir la tabla del 9 hasta el 5  con ciclo FOR y sacar los numero pares e impares
- * Autor: Esteban Palomar Murcia
+ * Autor: Isabella Carrera
  * Fecha: lunes 08 de abril del 2024
  */
 
