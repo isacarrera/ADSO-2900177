@@ -1,5 +1,5 @@
 /**tabla del 1 al 5 hasta el 5 e imprimir los pares e impares con ciclo FOR
- * Autor: Esteban Palomar Murcia
+ * Autor: Isabella carrera
  * Fecha: lunes 08 de abril del 2024
  */
 //con parametro
