@@ -1,6 +1,6 @@
 /**
  * imprimir el resultado de la suma de dos numeros
- * autor: Esteban Palomar Murcia
+ * autor:  * autor:Isabella carrera
  * Fecha: lunes 01 de marzo del 2024
  */
 
