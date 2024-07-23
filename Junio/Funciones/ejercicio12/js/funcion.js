@@ -1,5 +1,5 @@
 /*el mayor de 3 numeros.
- * Autor: Esteban Palomar Murcia
+ * Autor: Isabella carrera
  * Fecha: lunes 08 de abril del 2024
  */
 
