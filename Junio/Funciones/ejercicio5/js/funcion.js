@@ -1,5 +1,5 @@
 /**imprimir el promedio de 3 notas
- * Autor: Esteban Palomar Murcia
+ * Autor:Isabella carrera
  * Fecha: Jueves 04 de abril del 2024
  */
 //con parametro
