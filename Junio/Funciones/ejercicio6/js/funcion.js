@@ -1,5 +1,5 @@
 /**funcion para hallar el porcentaje de 3 notas y mostrar el pormedio
- * Autor: Esteban Palomar Murcia
+ * Autor: Isabella carrera
  * Fecha: Jueves 04 de abril del 2024
  */
 
