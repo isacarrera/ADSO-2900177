@@ -1,5 +1,5 @@
 /**calcular la edad de una persona e imprimir si es mayor o menor de edad.
- * Autor: Esteban Palomar Murcia
+ * Autor: Isabella carrera
  * Fecha: Lunes 08 de abril del 2024
  */
 
