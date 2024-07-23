@@ -1,5 +1,5 @@
 /**imprimir el area de un cuadrado, rectangulo y triangulo.
- * Autor: Esteban Palomar Murcia
+ * Autor: Isabella carrera
  * Fecha: Jueves 04 de abril del 2024
  */
 
