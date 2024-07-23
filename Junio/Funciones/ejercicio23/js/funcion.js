@@ -1,5 +1,5 @@
 /**imprimir los numeros deo 1 al 5 con ciclo FOR.
- * Autor: Esteban Palomar Murcia
+ * Autor: isabella carrera 
  * Fecha: lunes 08 de abril del 2024
  */
 
