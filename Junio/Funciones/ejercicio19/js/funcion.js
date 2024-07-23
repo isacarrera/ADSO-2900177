@@ -1,5 +1,5 @@
 /**imprimir la tabla del 5 hasta el 5.
- * Autor: Esteban Palomar Murcia
+ * Autor:Isabella carrera 
  * Fecha: lunes 08 de abril del 2024
  */
 
