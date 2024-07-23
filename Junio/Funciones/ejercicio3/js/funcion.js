@@ -1,6 +1,6 @@
 /**
  * imprimir la suma, resta, multiplicación y división
- * autor: Esteban Palomar Murcia
+ * autor: Isabella carrera
  * Fecha: lunes 01 de marzo del 2024
  */
 
