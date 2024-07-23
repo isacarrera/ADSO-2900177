@@ -1,7 +1,7 @@
 /**realizar un programa que calcule la edad de 3 personas 
 e imprimir si cada persona es mayor o menor de edad, tambien
 calcular e imprimir el promedio de las edades y mostrar si es de mayores o menores de edad.
- * Autor: Esteban Palomar Murcia
+ * Autor: Isabella carrera
  * Fecha: lunes 08 de abril del 2024
  */
 
