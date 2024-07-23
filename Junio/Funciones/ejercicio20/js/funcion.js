@@ -1,5 +1,5 @@
 /**imprimir la tabla del 9 hasta el 5 y sacar los pares e impares.
- * Autor: Esteban Palomar Murcia
+ * Autor:Isabella carrera
  * Fecha: lunes 08 de abril del 2024
  */
 
