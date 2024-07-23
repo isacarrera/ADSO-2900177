@@ -1,5 +1,5 @@
 /**calcular el porcentaje de 3 notas e imprimir si es una buna o mala nota
- * Autor: Esteban Palomar Murcia
+ * Autor: Isabella carrera
  * Fecha: lunes 08 de abril del 2024
  */
 
