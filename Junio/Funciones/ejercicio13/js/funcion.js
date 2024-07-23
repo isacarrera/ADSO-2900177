@@ -1,5 +1,5 @@
 /**calcular el area de 3 cuadrados e imprimir el area mayor
- * Autor: Esteban Palomar Murcia
+ * Autor: Isabella carrera
  * Fecha: lunes 08 de abril del 2024
  */
 //con parametro
