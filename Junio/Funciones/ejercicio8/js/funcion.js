@@ -1,6 +1,6 @@
 /**Función Sueldo - Calcular el sueldo de un trabajador con deducciones
  *  de pensión, salud y ARL. (pensión = 0.16, salud = 0.12, ARL = 0.052)
- * Autor: Esteban Palomar Murcia
+ * Autor: Isabella carrera
  * Fecha: lunes 08 de abril del 2024
  */
 
