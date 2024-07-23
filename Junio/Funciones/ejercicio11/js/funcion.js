@@ -1,5 +1,5 @@
 /**calcular el mayor de dos numero y validar si son iguales.
- * Autor: Esteban Palomar Murcia
+ * Autor: Isabella carrera
  * Fecha: lunes 08 de abril del 2024
  */
 
