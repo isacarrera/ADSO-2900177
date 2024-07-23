@@ -1,6 +1,6 @@
 /**
  * funcion saludo - hola mundo
- * autor: Esteban Palomar Murcia
+ * autor:Isabella carrera
  * Fecha: lunes 01 de marzo del 2024
  */
 
