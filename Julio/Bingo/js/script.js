@@ -1,43 +1,70 @@
-function generarTarjetaBingo(index) {
-    let bingou = Array.from({ length: 5 }, (_, row) => Array.from({ length: 5 }, (_, col) => 3 * (row * 5 + col + 1)));
-
-    const specialCases = [
-        { numbers: [3, 18, 33, 48, 63], letter: 'B' },
-        { numbers: [6, 21, 36, 51, 66], letter: 'I' },
-        { numbers: [9, 24, 39, 54, 69], letter: 'N' },
-        { numbers: [12, 27, 42, 57, 72], letter: 'G' },
-        { numbers: [15, 30, 45, 60, 75], letter: 'O' },
-        { numbers: [3, 21, 39, 27, 57, 15, 75, 63, 51], letter: 'X' },
-        { numbers: [[6, 24, 12, 42, 36], [33, 51, 69, 39, 63], [39, 69, 57, 45, 75]], letter: 'XXX' }
-    ];
-
+function generarTarjetaBingo(index){
+    let bingou = [];
+    let aumento = 1;
+    for (let i = 0; i < 5; i++) {
+        bingou[i] = [];
+        for (let j = 0; j < 5; j++) {
+            bingou[i][j] = 3 * aumento;
+            aumento++;
+        }
+    }
+    
     let specialNumbers = [];
     let letter = '';
+    if (index === 0) {
+        specialNumbers = [3, 18, 33, 48, 63];
+        letter = 'B';
+    } else if (index === 1) {
+        specialNumbers = [6, 21, 36, 51, 66];
+        letter = 'I';
+    } else if (index === 2) {
+        specialNumbers = [9, 24, 39, 54, 69];
+        letter = 'N';
+    } else if (index === 3) {
+        specialNumbers = [12, 27, 42, 57, 72];
+        letter = 'G';
+    } else if (index === 4) {
+        specialNumbers = [15, 30, 45, 60, 75];
+        letter = 'O';
+    } else if (index === 5) {
+        specialNumbers = [3, 21, 39, 27, 57, 15, 75, 63, 51];
+        letter = 'X';
+        for (let num of specialNumbers) {
+            let row = Math.floor((num - 1) / 15);
+            let col = bingou[row].indexOf(num);
+            bingou[row][col] = { number: 'X', styleClass: 'x' };
+        }
+    } else if (index === 6) {
+        specialNumbers = [
+            [6, 24, 12, 42, 36],
+            [33, 51, 69, 39, 63],
+            [39, 69, 57, 45, 75]
+        ];
+        letter = 'XXX';
 
-    if (index < specialCases.length) {
-        specialNumbers = specialCases[index].numbers;
-        letter = specialCases[index].letter;
+        for (let xIndex = 0; xIndex < specialNumbers.length; xIndex++) {
+            let xPositions = specialNumbers[xIndex];
+            for (let num of xPositions) {
+                let row = Math.floor((num - 1) / 15);
+                let col = bingou[row].indexOf(num);
+                bingou[row][col] = { number: 'X', styleClass: 'x' };
+            }
+        }
     }
 
-    if (letter === 'X' || letter === 'XXX') {
-        if (Array.isArray(specialNumbers[0])) {
-            specialNumbers.flat().forEach(num => markSpecialNumber(bingou, num, 'X'));
-        } else {
-            specialNumbers.forEach(num => markSpecialNumber(bingou, num, 'X'));
+    if (specialNumbers.length > 0) {
+        for (let number of specialNumbers) {
+            for (let row = 0; row < 5; row++) {
+                for (let col = 0; col < 5; col++) {
+                    if (bingou[row][col] === number) {
+                        bingou[row][col] = { number: number, styleClass: 'special-number' };
+                    }
+                }
+            }
         }
-    } else {
-        specialNumbers.forEach(num => markSpecialNumber(bingou, num, 'special-number'));
     }
 
     return { bingou, letter };
-}
-
-function markSpecialNumber(bingou, num, styleClass) {
-    let row = Math.floor((num - 1) / 15);
-    let col = bingou[row].indexOf(num);
-    if (col !== -1) {
-        bingou[row][col] = { number: styleClass === 'X' ? 'X' : num, styleClass: styleClass };
-    }
 }
 
 function crearTarjetaEnDOM(bingou, letter, index) {
@@ -58,7 +85,7 @@ function crearTarjetaEnDOM(bingou, letter, index) {
         for (let col = 0; col < 5; col++) {
             const td = document.createElement('td');
             td.className = 'bingo-cell';
-            if (typeof bingou[row][col] === 'object') {
+            if (bingou[row][col].styleClass) {
                 td.textContent = bingou[row][col].number;
                 td.classList.add(bingou[row][col].styleClass);
             } else {
