@@ -1,4 +1,3 @@
-//con parametro
 function calcularEdad(pnacimiento){
     let Anacimiento=pnacimiento;
     let edad;
