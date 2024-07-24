@@ -1,0 +1,339 @@
+.elemento-helio {
+  position: absolute;
+  top: 5px;
+  right: 1px;
+}
+.elemento-neon {
+  position: absolute;
+  top: 5px;
+  right: 1px;
+}
+.elemento-argon {
+  position: absolute;
+  top: 5px;
+  right: 1px;
+}
+.elemento-Fluor {
+  position: absolute;
+  top: 5px;
+  right: 73px;
+}
+.elemento-oxigeno {
+  position: absolute;
+  top: 5px;
+  right: 143px;
+}
+.elemento-Nitrogeno {
+  position: absolute;
+  top: 5px;
+  right: 216px;
+}
+.elemento-Carbono {
+  position: absolute;
+  top: 5px;
+  right: 287px;
+}
+.elemento-Boro {
+  position: absolute;
+  top: 5px;
+  right: 359px;
+}
+.elemento-Cloro {
+  position: absolute;
+  top: 5px;
+  right: 73px;
+}
+.elemento-Asufre {
+  position: absolute;
+  top: 5px;
+  right: 143px;
+}
+.elemento-Fosforo {
+  position: absolute;
+  top: 5px;
+  right: 216px;
+}
+.elemento-Silicio {
+  position: absolute;
+  top: 5px;
+  right: 287px;
+}
+.elemento-Aluminio {
+  position: absolute;
+  top: 5px;
+  right: 359px;
+}
+.elemento-posicion-derecha {
+  float: right;
+  display: block;
+}
+
+.tabla-periodica {
+  display: flex;
+  flex-direction: column;
+}
+
+.fila {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.fila::before {
+  content: attr(data-fila);
+  position: absolute;
+  top: 50%;
+  left: -30px;
+  transform: translateY(-50%);
+  font-size: 16px;
+}
+
+.elemento {
+  width: 62px;
+  height: 62px;
+  background-color: #ff66d1;
+  border: 2px solid #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.elemento:hover {
+  background-color: #d6d5d5;
+}
+
+.simbolo {
+  font-size: 14px;
+}
+
+.nombre {
+  font-size: 11px;
+}
+
+.informacion-extra {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.numero-atomico {
+  font-size: 10px;
+}
+
+.masa-atomica {
+  font-size: 7px;
+  color: #f4f4f4;
+}
+
+.tabla-metales-transicion {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.fila-metales-transicion {
+  display: flex;
+  flex-direction: row;
+}
+
+.elemento-metales-transicion {
+  width: 62px;
+  height: 62px;
+  background-color: #24762e;
+  border: 1px solid #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.elemento-metales-transicion .simbolo-metales-transicion {
+  font-size: 14px;
+}
+
+.elemento-metales-transicion .nombre-metales-transicion {
+  font-size: 11px;
+}
+
+.elemento-metales-transicion:hover {
+  background-color: #d9d9d9;
+}
+.elemento-metales-transicion .numero-atomico-metales-transicion {
+  font-size: 10px;
+  text-align: center;
+}
+
+.elemento-metales-transicion .masa-atomica-metales-transicion {
+  font-size: 7px;
+  color: #ffffff;
+}
+
+.tabla-lantanidos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.text-rotation {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  font-size: 0.5em;
+}
+
+.fila-lantanidos {
+  display: flex;
+  flex-direction: row;
+}
+
+.elemento-lantanidos {
+  width: 62px;
+  height: 62px;
+  background-color: #267d15;
+  border: 1px solid #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.elemento-lantanidos .simbolo-lantanidos {
+  font-size: 14px;
+}
+
+.elemento-lantanidos .nombre-lantanidos {
+  font-size: 11px;
+}
+
+.elemento-lantanidos:hover {
+  background-color: #d9d9d9;
+}
+
+.elemento-lantanidos .numero-atomico-lantanidos {
+  font-size: 7px;
+  text-align: center;
+}
+
+.elemento-lantanidos .masa-atomica-lantanidos {
+  font-size: 7px;
+  color: #fffbfb;
+}
+
+.tabla-actinidos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.fila-actinidos {
+  display: flex;
+  flex-direction: row;
+}
+
+.elemento-actinidos {
+  width: 62px;
+  height: 62px;
+  background-color: #67d161;
+  border: 1px solid #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.elemento-actinidos .simbolo-actinidos {
+  font-size: 14px;
+}
+
+.elemento-actinidos .nombre-actinidos {
+  font-size: 11px;
+}
+
+.elemento-actinidos:hover {
+  background-color: #ffffff;
+}
+
+.elemento-actinidos .numero-atomico-actinidos {
+  font-size: 10px;
+  text-align: center;
+}
+
+.elemento-actinidos .masa-atomica-actinidos {
+  font-size: 7px;
+  color: #fffafa;
+}
+.leyenda h2 {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+.leyenda {
+  position: absolute;
+  width: 10%;
+  padding: 5px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  font-size: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column; /* Cambia la dirección de la disposición a vertical */
+  margin-left: 180px; /* Ajusta la posición hacia la izquierda */
+  margin-top: -30px; /* Ajusta la posición hacia abajo */
+}
+
+.item {
+  display: inline-flex; /* Muestra los elementos en línea */
+  align-items: center;
+  margin-bottom: 10px; /* Espacio entre los elementos */
+}
+
+.color-box {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px; /* Espacio entre el cuadro de color y el texto */
+  border: 6px solid transparent; /* Para crear un cuadro invisible */
+}
+
+/* Alquilinos */
+.leyenda .alcalino .color-box {
+  background-color: #6d6a22; /* Rojo claro */
+}
+
+/* Alcalinotérreos */
+.leyenda .alcalinoterreo .color-box {
+  background-color: #f0c800ac; /* Amarillo */
+}
+/* Otros Metales */
+.leyenda .otros-metales .color-box {
+  background-color: #7c02be; /* Amarillo */
+}
+/* Metales de transición */
+.leyenda .metal-transicion .color-box {
+  background-color: #ff66d1; /* Azul claro */
+}
+
+/* Metaloides */
+.leyenda .metaloide .color-box {
+  background-color: #66ffd1; /* Verde claro */
+}
+
+/* No metales */
+.leyenda .no-metal .color-box {
+  background-color: #8b558b; /* Magenta */
+}
+
+/* Halógenos */
+.leyenda .halogeno .color-box {
+  background-color: #458437; /* Naranja */
+}
+
+/* Gases nobles */
+.leyenda .gas-noble .color-box {
+  background-color: #4a5eae; /* Cyan */
+}

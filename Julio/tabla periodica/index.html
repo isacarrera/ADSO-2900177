@@ -1,0 +1,2188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Tabla Periódica</title>
+	<link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.css" />
+	<link rel="stylesheet" href="css/estilos.css" />
+	<script src="bootstrap-5.1.3-dist/js/bootstrap.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<div id="principal" class="col-12">
+			<h2 class="text-center">Tabla Periodica de los Elementos</h2>
+			<h4 class="text-center">Actualizada</h4>
+			<div class="tabla-periodica">
+				<div class="leyenda">
+					<h2> Tabla </h2>
+					<div class="item alcalino">
+					  <div class="color-box"></div>
+					  <span> Alcalino </span>
+					</div>
+					<div class="item alcalinoterreo">
+					  <div class="color-box"></div>
+					  <span> Alcalinotérreo </span>
+					</div>
+					<div class="item otros-metales">
+					  <div class="color-box"></div>
+					  <span> Metal de Transición </span>
+					</div>
+					<div class="item metal-transicion">
+					  <div class="color-box"></div>
+					  <span> Metal de Transición </span>
+					</div>
+					<div class="item metaloide">
+					  <div class="color-box"></div>
+					  <span> Metaloide </span>
+					</div>
+					<div class="item no-metal">
+					  <div class="color-box"></div>
+					  <span> No Metal </span>
+					</div>
+					<div class="item halogeno">
+					  <div class="color-box"></div>
+					  <span> Halógeno </span>
+					</div>
+					<div class="item gas-noble">
+					  <div class="color-box"></div>
+					  <span> Gas Noble </span>
+					</div>
+				  </div>
+				</div>
+				<!-- Primera fila -->
+				<!-- Elemento Hridogeno -->
+				<div class="fila" data-fila="1">
+					<div class="elemento hidrogeno" data-bs-toggle="modal" data-bs-target="#modalHidrogeno" style="background-color: #8b558b;">
+						<div class="simbolo">H</div>
+						<div class="nombre">Hidrogeno</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">1</div>
+
+							<div class="masa-atomica">1.008 u</div>
+						</div>
+					</div>
+					<!-- Agregar más elementos -->
+					<!-- Elemento Helio -->
+					<div class="elemento elemento-helio" data-bs-toggle="modal" data-bs-target="#modalHelio">
+						<div class="simbolo">He</div>
+
+						<div class="nombre">Helio</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">2</div>
+
+							<div class="masa-atomica">4.0026 u</div>
+						</div>
+					</div>
+				</div>
+				<!-- Segunda fila -->
+				<!-- Elemento Litio -->
+				<div class="fila" data-fila="2">
+					<div class="elemento litio" data-bs-toggle="modal" data-bs-target="#modalLitio" style=" background-color: #6d6a22;">
+						<div class="simbolo">Li</div>
+
+						<div class="nombre">Litio</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">3</div>
+
+							<div class="masa-atomica">6.941 u</div>
+						</div>
+					</div>
+					<!-- Elemento Berilio -->
+
+					<div class="elemento berilio" data-bs-toggle="modal" data-bs-target="#modalBerilio" style="background-color: #f0c800ac;">
+						<div class="simbolo">Be</div>
+
+						<div class="nombre">Berilio</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">4</div>
+
+							<div class="masa-atomica">9.012 u</div>
+						</div>
+					</div>
+					<!-- Elemento Neón -->
+
+					<div class="elemento elemento-neon" data-bs-toggle="modal" data-bs-target="#modalNeon">
+						<div class="simbolo">Ne</div>
+
+						<div class="nombre">Neon</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">10</div>
+
+							<div class="masa-atomica">20.17 u</div>
+						</div>
+					</div>
+					<!-- Elmento Fluor -->
+
+					<div class="elemento elemento-Fluor " data-bs-toggle="modal" data-bs-target="#modalFluor">
+						<div class="simbolo">F</div>
+
+						<div class="nombre">Fluor</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">9</div>
+
+							<div class="masa-atomica">18.99 u</div>
+						</div>
+					</div>
+					<!-- Elmento oxigeno -->
+
+					<div class="elemento elemento-oxigeno " data-bs-toggle="modal" data-bs-target="#modalOxigeno" style="background-color: #8b558b;">
+						<div class="simbolo">O</div>
+
+						<div class="nombre">Oxigeno</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">8</div>
+
+							<div class="masa-atomica">15.99 u</div>
+						</div>
+					</div>
+					<!-- Elmento Nitrogeno -->
+
+					<div class="elemento elemento-Nitrogeno " data-bs-toggle="modal" data-bs-target="#modalNitrogeno" style="background-color: #8b558b;">
+						<div class="simbolo">N</div>
+
+						<div class="nombre">Nitrogeno</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">7</div>
+
+							<div class="masa-atomica">14.00 u</div>
+						</div>
+					</div>
+					<!-- Elmento Carbono -->
+
+					<div class="elemento elemento-Carbono " data-bs-toggle="modal" data-bs-target="#modalCarbono" style="background-color: #8b558b;">
+						<div class="simbolo">C</div>
+
+						<div class="nombre">Carbono</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">6</div>
+
+							<div class="masa-atomica">12.01 u</div>
+						</div>
+					</div>
+					<!-- Elmento Boro -->
+
+					<div class="elemento elemento-Boro " data-bs-toggle="modal" data-bs-target="#modalBoro" style="  background-color: #66ffd1;">
+						<div class="simbolo">B</div>
+
+						<div class="nombre">Boro</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">5</div>
+
+							<div class="masa-atomica">10.81 u</div>
+						</div>
+					</div>
+				</div>
+				<!-- Tercera fila -->
+
+				<div class="fila" data-fila="3">
+					<div class="elemento sodio" data-bs-toggle="modal" data-bs-target="#modalSodio" style="background-color: #6d6a22;">
+						<div class="simbolo">Na</div>
+
+						<div class="nombre">Sodio</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">11</div>
+
+							<div class="masa-atomica">22.98 u</div>
+						</div>
+					</div>
+					<!-- Elemento Magnesio -->
+
+					<div class="elemento Magnesio" data-bs-toggle="modal" data-bs-target="#modalMagnesio" style="background-color: #f0c800ac;">
+						<div class="simbolo">Mg</div>
+
+						<div class="nombre">Magnesio</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">12</div>
+
+							<div class="masa-atomica">24.30 u</div>
+						</div>
+					</div>
+					<!-- Elemento Argón -->
+
+					<div class="elemento elemento-argon" data-bs-toggle="modal" data-bs-target="#modalArgon">
+						<div class="simbolo">Ar</div>
+
+						<div class="nombre">Argon</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">18</div>
+
+							<div class="masa-atomica">39.948 u</div>
+						</div>
+					</div>
+					<!-- Elemento Cloro -->
+
+					<div class="elemento elemento-Cloro" data-bs-toggle="modal" data-bs-target="#modalCloro">
+						<div class="simbolo">Cl</div>
+
+						<div class="nombre">Cloro</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">17</div>
+
+							<div class="masa-atomica">35.45 u</div>
+						</div>
+					</div>
+					<!-- Elemento Asufre -->
+
+					<div class="elemento elemento-Asufre" data-bs-toggle="modal" data-bs-target="#modalAsufre" style="background-color: #8b558b;">
+						<div class="simbolo">S</div>
+
+						<div class="nombre">Asufre</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">16</div>
+
+							<div class="masa-atomica">32.06 u</div>
+						</div>
+					</div>
+					<!-- Elemento Fosforo -->
+
+					<div class="elemento elemento-Fosforo" data-bs-toggle="modal" data-bs-target="#modalFosforo" style="background-color: #8b558b;">
+						<div class="simbolo">P</div>
+
+						<div class="nombre">Fosforo</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">15</div>
+
+							<div class="masa-atomica">30.97 u</div>
+						</div>
+					</div>
+					<!-- Elemento Silicio -->
+
+					<div class="elemento elemento-Silicio" data-bs-toggle="modal" data-bs-target="#modalSilicio">
+						<div class="simbolo">Si</div>
+
+						<div class="nombre">Silicio</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">14</div>
+
+							<div class="masa-atomica">28.08 u</div>
+						</div>
+					</div>
+					<!-- Elemento Aluminio -->
+
+					<div class="elemento elemento-Aluminio" data-bs-toggle="modal" data-bs-target="#modalAluminio">
+						<div class="simbolo">Al</div>
+
+						<div class="nombre">Aluminio</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">13</div>
+
+							<div class="masa-atomica">26.98 u</div>
+						</div>
+					</div>
+				</div>
+				<!-- Cuarta fila -->
+
+				<div class="fila" data-fila="4">
+					<div class="elemento potasio" data-bs-toggle="modal" data-bs-target="#modalPotasio" style="background-color: #6d6a22;">
+						<div class="simbolo">K</div>
+
+						<div class="nombre">Potasio</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">19</div>
+
+							<div class="masa-atomica">39.09 u</div>
+						</div>
+					</div>
+					<!-- elemento Calcio -->
+
+					<div class="elemento Calcio" data-bs-toggle="modal" data-bs-target="#modalCalcio" style="background-color: #f0c800ac;">
+						<div class="simbolo">Ca</div>
+
+						<div class="nombre">Calcio</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">20</div>
+
+							<div class="masa-atomica">40.08 u</div>
+						</div>
+					</div>
+					<!-- elemento Escandio -->
+
+					<div class="elemento Escandio" data-bs-toggle="modal" data-bs-target="#modalEscandio">
+						<div class="simbolo">Sc</div>
+
+						<div class="nombre">Escandio</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">21</div>
+
+							<div class="masa-atomica">44.95 u</div>
+						</div>
+					</div>
+					<!-- elemento Titanio -->
+
+					<div class="elemento Titanio" data-bs-toggle="modal" data-bs-target="#modalTitanio">
+						<div class="simbolo">Ti</div>
+
+						<div class="nombre">Titanio</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">22</div>
+
+							<div class="masa-atomica">47.86 u</div>
+						</div>
+					</div>
+					<!-- elemento Vanadio -->
+
+					<div class="elemento Vanadio" data-bs-toggle="modal" data-bs-target="#modalVanadio">
+						<div class="simbolo">V</div>
+
+						<div class="nombre">Vanadio</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">23</div>
+
+							<div class="masa-atomica">50.94 u</div>
+						</div>
+					</div>
+					<!-- elemento Cromo -->
+
+					<div class="elemento Cromo" data-bs-toggle="modal" data-bs-target="#modalCromo">
+						<div class="simbolo">Cr</div>
+
+						<div class="nombre">Cromo</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">24</div>
+
+							<div class="masa-atomica">51.99 u</div>
+						</div>
+					</div>
+					<!-- elemento Manganeso -->
+
+					<div class="elemento Manganeso" data-bs-toggle="modal" data-bs-target="#modalManganeso">
+						<div class="simbolo">Mn</div>
+
+						<div class="nombre">Manganeso</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">25</div>
+
+							<div class="masa-atomica">54.93 u</div>
+						</div>
+					</div>
+					<!-- elemento Hierro -->
+
+					<div class="elemento Hierro" data-bs-toggle="modal" data-bs-target="#modalHierro">
+						<div class="simbolo">Fe</div>
+
+						<div class="nombre">Hierro</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">26</div>
+
+							<div class="masa-atomica">55.84 u</div>
+						</div>
+					</div>
+
+					<!-- elemento Cobalto -->
+					<div class="elemento Cobalto" data-bs-toggle="modal" data-bs-target="#modalCobalto">
+						<div class="simbolo">Co</div>
+
+						<div class="nombre">Cobalto</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">27</div>
+
+							<div class="masa-atomica">58.93 u</div>
+						</div>
+					</div>
+
+					<!-- elemento Niquel -->
+					<div class="elemento Niquel" data-bs-toggle="modal" data-bs-target="#modalNiquel">
+						<div class="simbolo">Ni</div>
+
+						<div class="nombre">Niquel</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">28</div>
+
+							<div class="masa-atomica">58.69 u</div>
+						</div>
+					</div>
+					<!-- elemento Cobre -->
+					<div class="elemento Cobre" data-bs-toggle="modal" data-bs-target="#modalCobre">
+						<div class="simbolo">Cu</div>
+
+						<div class="nombre">Cobre</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">29</div>
+
+							<div class="masa-atomica">63.54 u</div>
+						</div>
+					</div>
+
+					<!-- elemento Zinc -->
+					<div class="elemento Zinc" data-bs-toggle="modal" data-bs-target="#modalZinc">
+						<div class="simbolo">Zn</div>
+
+						<div class="nombre">Zinc</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">30</div>
+
+							<div class="masa-atomica">65.38 u</div>
+						</div>
+					</div>
+
+					<!-- elemento Galio -->
+					<div class="elemento Galio" data-bs-toggle="modal" data-bs-target="#modalGalio">
+						<div class="simbolo">Ga</div>
+
+						<div class="nombre">Galio</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">31</div>
+
+							<div class="masa-atomica">69.723 u</div>
+						</div>
+					</div>
+
+					<!-- elemento Germanio -->
+
+					<div class="elemento Germanio" data-bs-toggle="modal" data-bs-target="#modalGermanio">
+						<div class="simbolo">Ge</div>
+
+						<div class="nombre">Germanio</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">32</div>
+
+							<div class="masa-atomica">72.64 u</div>
+						</div>
+					</div>
+
+					<!-- elemento Arsenico -->
+					<div class="elemento Arsenico" data-bs-toggle="modal" data-bs-target="#modalArsenico">
+						<div class="simbolo">As</div>
+
+						<div class="nombre">Arsenico</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">33</div>
+
+							<div class="masa-atomica">74.92 u</div>
+						</div>
+					</div>
+
+					<!-- elemento Selenio -->
+					<div class="elemento Selenio" data-bs-toggle="modal" data-bs-target="#modalSelenio" style="background-color: #8b558b;">
+						<div class="simbolo">Se</div>
+
+						<div class="nombre">Selenio</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">34</div>
+
+							<div class="masa-atomica">78.96 u</div>
+						</div>
+					</div>
+					<!-- elemento Bromo -->
+					<div class="elemento Selenio" data-bs-toggle="modal" data-bs-target="#modalBromo">
+						<div class="simbolo">Br</div>
+
+						<div class="nombre">Bromo</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">35</div>
+
+							<div class="masa-atomica">79.90 u</div>
+						</div>
+					</div>
+					<!-- elemento Kripton -->
+					<div class="elemento kripton" data-bs-toggle="modal" data-bs-target="#modalKripton">
+						<div class="simbolo">Kr</div>
+
+						<div class="nombre">Kripton</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">36</div>
+
+							<div class="masa-atomica">83.79 u</div>
+						</div>
+					</div>
+				</div>
+				<!-- Quinta fila -->
+
+				<div class="fila" data-fila="5">
+					<div class="elemento rubidio" data-bs-toggle="modal" data-bs-target="#modalRubidio" style=" background-color: #6d6a22;">
+						<div class="simbolo">Rb</div>
+
+						<div class="nombre">Rubidio</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">37</div>
+
+							<div class="masa-atomica">85.46 u</div>
+						</div>
+					</div>
+					<!-- Elemento 38: Estroncio -->
+
+					<div class="elemento estroncio" data-bs-toggle="modal" data-bs-target="#modalEstroncio" style="background-color: #f0c800ac;">
+						<div class="simbolo">Sr</div>
+
+						<div class="nombre">Estroncio</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">38</div>
+
+							<div class="masa-atomica">87.62 u</div>
+						</div>
+					</div>
+					<!-- Elemento 39: Itrio -->
+
+					<div class="elemento itrio" data-bs-toggle="modal" data-bs-target="#modalItrio">
+						<div class="simbolo">Y</div>
+
+						<div class="nombre">Itrio</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">39</div>
+
+							<div class="masa-atomica">88.91 u</div>
+						</div>
+					</div>
+					<!-- Elemento 40: Zirconio -->
+
+					<div class="elemento Zirconio" data-bs-toggle="modal" data-bs-target="#modalZirconio">
+						<div class="simbolo">Zr</div>
+
+						<div class="nombre">Zirconio</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">40</div>
+
+							<div class="masa-atomica">91.22 u</div>
+						</div>
+					</div>
+					<!-- Elemento 41: Niobio -->
+
+					<div class="elemento niobio" data-bs-toggle="modal" data-bs-target="#modalNiobio">
+						<div class="simbolo">Nb</div>
+
+						<div class="nombre">Niobio</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">41</div>
+
+							<div class="masa-atomica">92.91 u</div>
+						</div>
+					</div>
+					<!-- Elemento 42: Molibdeno -->
+
+					<div class="elemento molibdeno" data-bs-toggle="modal" data-bs-target="#modalMolibdeno">
+						<div class="simbolo">Mo</div>
+
+						<div class="nombre">Molibdeno</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">42</div>
+
+							<div class="masa-atomica">95.95 u</div>
+						</div>
+					</div>
+					<!-- Elemento 43: Tecnecio -->
+
+					<div class="elemento tecnecio" data-bs-toggle="modal" data-bs-target="#modalTecnecio">
+						<div class="simbolo">Tc</div>
+
+						<div class="nombre">Tecnecio</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">43</div>
+
+							<div class="masa-atomica">[97] u</div>
+						</div>
+					</div>
+					<!-- Elemento 44: Rutenio -->
+
+					<div class="elemento rutenio" data-bs-toggle="modal" data-bs-target="#modalRutenio">
+						<div class="simbolo">Ru</div>
+
+						<div class="nombre">Rutenio</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">44</div>
+
+							<div class="masa-atomica">101.07 u</div>
+						</div>
+					</div>
+					<!-- Elemento 45: Rodio -->
+
+					<div class="elemento rodio" data-bs-toggle="modal" data-bs-target="#modalRodio">
+						<div class="simbolo">Rh</div>
+
+						<div class="nombre">Rodio</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">45</div>
+
+							<div class="masa-atomica">102.91 u</div>
+						</div>
+					</div>
+					<!-- Elemento 46: Paladio -->
+
+					<div class="elemento paladio" data-bs-toggle="modal" data-bs-target="#modalPaladio">
+						<div class="simbolo">Pd</div>
+
+						<div class="nombre">Paladio</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">46</div>
+
+							<div class="masa-atomica">106.42 u</div>
+						</div>
+					</div>
+					<!-- Elemento 47: Plata -->
+
+					<div class="elemento plata" data-bs-toggle="modal" data-bs-target="#modalPlata">
+						<div class="simbolo">Ag</div>
+
+						<div class="nombre">Plata</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">47</div>
+
+							<div class="masa-atomica">107.87 u</div>
+						</div>
+					</div>
+					<!-- Elemento 48: Cadmio -->
+
+					<div class="elemento cadmio" data-bs-toggle="modal" data-bs-target="#modalCadmio">
+						<div class="simbolo">Cd</div>
+
+						<div class="nombre">Cadmio</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">48</div>
+
+							<div class="masa-atomica">112.41 u</div>
+						</div>
+					</div>
+					<!-- Elemento 49: indio -->
+
+					<div class="elemento indio" data-bs-toggle="modal" data-bs-target="#modalIndio">
+						<div class="simbolo">In</div>
+
+						<div class="nombre">Indio</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">49</div>
+
+							<div class="masa-atomica">114.818 u</div>
+						</div>
+					</div>
+					<!-- Elemento 50: Estaño -->
+
+					<div class="elemento Estaño" data-bs-toggle="modal" data-bs-target="#modalEstaño">
+						<div class="simbolo">Sn</div>
+
+						<div class="nombre">Estaño</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">50</div>
+
+							<div class="masa-atomica">118.7 u</div>
+						</div>
+					</div>
+					<!-- Elemento 51: Antimanio -->
+
+					<div class="elemento antimanio" data-bs-toggle="modal" data-bs-target="#modalAntimanio">
+						<div class="simbolo">Sb</div>
+
+						<div class="nombre">Antimanio</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">51</div>
+
+							<div class="masa-atomica">121.7 u</div>
+						</div>
+					</div>
+					<!-- Elemento 52: Telurio -->
+
+					<div class="elemento cadmio" data-bs-toggle="modal" data-bs-target="#modalCadmio">
+						<div class="simbolo">Te</div>
+
+						<div class="nombre">Telurio</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">52</div>
+
+							<div class="masa-atomica">127.60 u</div>
+						</div>
+					</div>
+					<!-- Elemento 53: Yodo -->
+
+					<div class="elemento yodo" data-bs-toggle="modal" data-bs-target="#modalYodo ">
+						<div class="simbolo">I</div>
+
+						<div class="nombre">Yodo</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">53</div>
+
+							<div class="masa-atomica">126.90 u</div>
+						</div>
+					</div>
+					<!-- Elemento 54: Xenon -->
+
+					<div class="elemento Xenon" data-bs-toggle="modal" data-bs-target="#modalXenon">
+						<div class="simbolo">Xe</div>
+
+						<div class="nombre">Xenon</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">54</div>
+
+							<div class="masa-atomica">121.2 u</div>
+						</div>
+					</div>
+				</div>
+				<!-- Sexta fila -->
+
+				<div class="fila" data-fila="6">
+					<div class="elemento cesio" data-bs-toggle="modal" data-bs-target="#modalCesio" style=" background-color: #6d6a22;">
+						<div class="simbolo">Cs</div>
+
+						<div class="nombre">Cesio</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">55</div>
+
+							<div class="masa-atomica">132.9 u</div>
+						</div>
+					</div>
+					<!-- Elemento Bario -->
+
+					<div class="elemento bario" data-bs-toggle="modal" data-bs-target="#modalBario" style="background-color: #f0c800ac;">
+						<div class="simbolo">Ba</div>
+
+						<div class="nombre">Bario</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">56</div>
+
+							<div class="masa-atomica">137.3 u</div>
+						</div>
+					</div>
+					<!-- Elemento Lantanidos -->
+
+					<div class="elemento Lantanidos" data-bs-toggle="modal" data-bs-target="#modalLantanidos" style="background-color: #267d15;">
+						<div class="nombre">Lantanidos</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">57</div>
+							<div class="numero-atomico">71 </div>
+						</div>
+					</div>
+					<!-- Elemento Hafnio -->
+
+					<div class="elemento Hafnio" data-bs-toggle="modal" data-bs-target="#modalHafnio">
+						<div class="simbolo">Hf</div>
+						<div class="nombre">Hafnio</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">72</div>
+							<div class="masa-atomica">178.4 u</div>
+						</div>
+					</div>
+					<!-- Elemento Tantalio -->
+					<div class="elemento tantalio" data-bs-toggle="modal" data-bs-target="#modalTantalio">
+						<div class="simbolo">Ta</div>
+						<div class="nombre">Tantalio</div>
+						<div class="informacion-extra">
+							<div class="numero-atomico">73</div>
+							<div class="masa-atomica">180.94788 u </div>
+						</div>
+					</div>
+					<!-- Elemento Wolframio -->
+					<div class="elemento wolframio" data-bs-toggle="modal" data-bs-target="#modalWolframio">
+						<div class="simbolo">W</div>
+						<div class="nombre">Wolframio </div>
+						<div class="informacion-extra">
+							<div class="numero-atomico">74</div>
+							<div class="masa-atomica">183.84 u </div>
+						</div>
+					</div>
+					<!-- Elemento Renio -->
+					<div class="elemento Renio" data-bs-toggle="modal" data-bs-target="#modalRenio">
+
+						<div class="simbolo">Re</div>
+						<div class="nombre">Renio</div>
+						<div class="informacion-extra">
+							<div class="numero-atomico">75</div>
+							<div class="masa-atomica">186.207 u</div>
+						</div>
+					</div>
+
+					<!-- Elemento Osmio -->
+					<div class="elemento osmio" data-bs-toggle="modal" data-bs-target="#modalOsmio">
+
+						<div class="simbolo">Os</div>
+						<div class="nombre">Osmio</div>
+						<div class="informacion-extra">
+							<div class="numero-atomico">76</div>
+							<div class="masa-atomica">190.23 u </div>
+						</div>
+					</div>
+
+					<!-- Elemento Iridio -->
+					<div class="elemento iridio" data-bs-toggle="modal" data-bs-target="#modalIridio">
+
+						<div class="simbolo">Ir</div>
+						<div class="nombre">Iridio</div>
+						<div class="informacion-extra">
+							<div class="numero-atomico">77</div>
+							<div class="masa-atomica">192.217 u </div>
+						</div>
+					</div>
+
+					<!-- Elemento Platino -->
+					<div class="elemento platino" data-bs-toggle="modal" data-bs-target="#modalPlatino">
+						<div class="simbolo">Pt</div>
+						<div class="nombre">Platino</div>
+						<div class="informacion-extra">
+							<div class="numero-atomico">78</div>
+							<div class="masa-atomica">195.084 u</div>
+						</div>
+					</div>
+
+					<!-- Elemento Gold -->
+					<div class="elemento oro" data-bs-toggle="modal" data-bs-target="#modalOro">
+						<div class="simbolo">Au</div>
+						<div class="nombre">Oro</div>
+						<div class="informacion-extra">
+							<div class="numero-atomico">79</div>
+							<div class="masa-atomica">196.966 u </div>
+						</div>
+					</div>
+
+					<!-- Elemento Mercurio -->
+					<div class="elemento mercurio" data-bs-toggle="modal" data-bs-target="#modalMercurio">
+						<div class="simbolo">Hg</div>
+						<div class="nombre">Mercurio</div>
+						<div class="informacion-extra">
+							<div class="numero-atomico">80</div>
+							<div class="masa-atomica">200.592 u </div>
+						</div>
+					</div>
+					<!-- Elemento Talio -->
+					<div class="elemento Talio" data-bs-toggle="modal" data-bs-target="#modalTalio">
+						<div class="simbolo">Ti</div>
+						<div class="nombre">Talio</div>
+						<div class="informacion-extra">
+							<div class="numero-atomico">81</div>
+							<div class="masa-atomica">204.3 u </div>
+						</div>
+					</div>
+
+					<!-- Elemento Plomo -->
+					<div class="elemento Plomo" data-bs-toggle="modal" data-bs-target="#modalPlomo">
+						<div class="simbolo">Pb</div>
+						<div class="nombre">Plomo</div>
+						<div class="informacion-extra">
+							<div class="numero-atomico">82</div>
+							<div class="masa-atomica">207.2 u </div>
+						</div>
+					</div>
+
+					<!-- Elemento Bismuto -->
+					<div class="elemento Bismuto" data-bs-toggle="modal" data-bs-target="#modal-bismuto">
+						<div class="simbolo">Bi</div>
+						<div class="nombre">Bismuto</div>
+						<div class="informacion-extra">
+							<div class="numero-atomico">83</div>
+							<div class="masa-atomica">208.9804 u</div>
+						</div>
+					</div>
+
+					<!-- Elemento Polonio -->
+					<div class="elemento Polonio" data-bs-toggle="modal" data-bs-target="#modal-polonio">
+						<div class="simbolo">Po</div>
+						<div class="nombre">Polonio</div>
+						<div class="informacion-extra">
+							<div class="numero-atomico">84</div>
+							<div class="masa-atomica">209 u </div>
+						</div>
+					</div>
+
+					<!-- Elemento Astato -->
+					<div class="elemento Astato" data-bs-toggle="modal" data-bs-target="#modal-astato">
+						<div class="simbolo">At</div>
+						<div class="nombre">Astato</div>
+						<div class="informacion-extra">
+							<div class="numero-atomico">85</div>
+							<div class="masa-atomica">210 u</div>
+						</div>
+					</div>
+
+					<!-- Elemento Radón -->
+					<div class="elemento Radon" data-bs-toggle="modal" data-bs-target="#modal-radon">
+						<div class="simbolo">Rn</div>
+						<div class="nombre">Radón</div>
+						<div class="informacion-extra">
+							<div class="numero-atomico">86</div>
+							<div class="masa-atomica">222 u</div>
+						</div>
+					</div>
+				</div>
+				<!-- Séptima fila -->
+
+				<div class="fila" data-fila="7">
+					<div class="elemento francio" data-bs-toggle="modal" data-bs-target="#modalFrancio" style=" background-color: #6d6a22;">
+						<div class="simbolo">Fr</div>
+
+						<div class="nombre">Francio</div>
+
+						<div class="informacion-extra">
+							<div class="numero-atomico">87</div>
+
+							<div class="masa-atomica">22.3 u</div>
+						</div>
+					</div>
+					<!-- Elemento Radio -->
+					<div class="elemento Radio" data-bs-toggle="modal" data-bs-target="#modalRadio" style="background-color: #f0c800ac;">
+						<div class="simbolo">Ra</div>
+						<div class="nombre">Radio</div>
+						<div class="informacion-extra">
+							<div class="numero-atomico">88</div>
+							<div class="masa-atomica">226 u</div>
+						</div>
+					</div>
+					<!-- Elemento Actinidos -->
+					<div class="elemento Actinidos" data-bs-toggle="modal" data-bs-target="#modalActinidos" style="background-color: #67d161;">
+						<div class="nombre">Actinidos</div>
+						<div class="informacion-extra">
+							<div class="numero-atomico">88</div>
+							<div class="numero-atomico">103</div>
+						</div>
+					</div>
+					<!-- Elemento Rutherfodio -->
+					<div class="elemento Radio" data-bs-toggle="modal" data-bs-target="#modalRutherfodio">
+						<div class="simbolo">Rr</div>
+						<div class="nombre">Rutherfodio</div>
+						<div class="informacion-extra">
+							<div class="numero-atomico">104</div>
+							<div class="masa-atomica">261 u</div>
+						</div>
+					</div>
+					<!-- Elemento Dubnio -->
+					<div class="elemento Dubnio" data-bs-toggle="modal" data-bs-target="#modalDubnio">
+						<div class="simbolo">Db</div>
+						<div class="nombre">Dubnio</div>
+						<div class="informacion-extra">
+							<div class="numero-atomico">105</div>
+							<div class="masa-atomica">262 u</div>
+						</div>
+					</div>
+					<!-- Elemento Seaborgio -->
+					<div class="elemento Seaborgio" data-bs-toggle="modal" data-bs-target="#modalSeaborgio">
+						<div class="simbolo">Sg</div>
+						<div class="nombre">Seaborgio</div>
+						<div class="informacion-extra">
+							<div class="numero-atomico">106</div>
+							<div class="masa-atomica">266 u</div>
+						</div>
+					</div>
+					<!-- Elemento Bohrio -->
+					<div class="elemento Bohrio" data-bs-toggle="modal" data-bs-target="#modalBohrio">
+						<div class="simbolo">Bh</div>
+						<div class="nombre">Bohrio</div>
+						<div class="informacion-extra">
+							<div class="numero-atomico">107</div>
+							<div class="masa-atomica">264 u</div>
+						</div>
+					</div>
+					<!-- Elemento Hassio -->
+					<div class="elemento Hassio" data-bs-toggle="modal" data-bs-target="#modalHassio">
+						<div class="simbolo">Hs</div>
+						<div class="nombre">Hassio</div>
+						<div class="informacion-extra">
+							<div class="numero-atomico">108</div>
+							<div class="masa-atomica">277 u</div>
+						</div>
+					</div>
+					<!-- Elemento Meitnerio -->
+					<div class="elemento Meitnerio" data-bs-toggle="modal" data-bs-target="#modalMeitnerio">
+						<div class="simbolo">Mt</div>
+						<div class="nombre">Meitnerio</div>
+						<div class="informacion-extra">
+							<div class="numero-atomico">109</div>
+							<div class="masa-atomica">268 u</div>
+						</div>
+					</div>
+					<!-- Elemento Darmstatio -->
+					<div class="elemento Bohrio" data-bs-toggle="modal" data-bs-target="#modalDarmstatio">
+						<div class="simbolo">Ds</div>
+						<div class="nombre">Darmstatio</div>
+						<div class="informacion-extra">
+							<div class="numero-atomico">110</div>
+							<div class="masa-atomica">271 u</div>
+						</div>
+					</div>
+					<!-- Elemento Roentgenio -->
+					<div class="elemento Roentgenio" data-bs-toggle="modal" data-bs-target="#modalRoentgenio">
+						<div class="simbolo">Rg</div>
+						<div class="nombre">Roentgenio</div>
+						<div class="informacion-extra">
+							<div class="numero-atomico">111</div>
+							<div class="masa-atomica">272 u</div>
+						</div>
+					</div>
+					<!-- Elemento Copernicio -->
+					<div class="elemento Copernicio" data-bs-toggle="modal" data-bs-target="#modalCopernicio">
+						<div class="simbolo">Cn</div>
+						<div class="nombre">Copernicio</div>
+						<div class="informacion-extra">
+							<div class="numero-atomico">112</div>
+							<div class="masa-atomica">285 u</div>
+						</div>
+					</div>
+					<!-- Elemento Nihonio -->
+					<div class="elemento Nihonio" data-bs-toggle="modal" data-bs-target="#modalNihonio">
+						<div class="simbolo">Nh</div>
+						<div class="nombre">Nihonio</div>
+						<div class="informacion-extra">
+							<div class="numero-atomico">113</div>
+							<div class="masa-atomica">284 u</div>
+						</div>
+					</div>
+					<!-- Elemento Flerovio -->
+					<div class="elemento Flerovio" data-bs-toggle="modal" data-bs-target="#modalFlerovio">
+						<div class="simbolo">Fl</div>
+						<div class="nombre">Flerovio</div>
+						<div class="informacion-extra">
+							<div class="numero-atomico">114</div>
+							<div class="masa-atomica">289 u</div>
+						</div>
+					</div>
+					<!-- Elemento Moscovio -->
+					<div class="elemento Moscovio" data-bs-toggle="modal" data-bs-target="#modalMoscovio">
+						<div class="simbolo">Mc</div>
+						<div class="nombre">Moscovio</div>
+						<div class="informacion-extra">
+							<div class="numero-atomico">115</div>
+							<div class="masa-atomica">288 u</div>
+						</div>
+					</div>
+					<!-- Elemento Livermorio -->
+					<div class="elemento Livermorio" data-bs-toggle="modal" data-bs-target="#modalLivermorio">
+						<div class="simbolo">Lv</div>
+						<div class="nombre">Livermorio</div>
+						<div class="informacion-extra">
+							<div class="numero-atomico">116</div>
+							<div class="masa-atomica">292 u</div>
+						</div>
+					</div>
+					<!-- Elemento Teneso -->
+					<div class="elemento Teneso" data-bs-toggle="modal" data-bs-target="#modalTeneso">
+						<div class="simbolo">Ts</div>
+						<div class="nombre">Teneso</div>
+						<div class="informacion-extra">
+							<div class="numero-atomico">117</div>
+							<div class="masa-atomica">294 u</div>
+						</div>
+					</div>
+					<!-- Elemento Organeson -->
+					<div class="elemento Organeson" data-bs-toggle="modal" data-bs-target="#modalOrganeson">
+						<div class="simbolo">Og</div>
+						<div class="nombre">Organeson</div>
+						<div class="informacion-extra">
+							<div class="numero-atomico">118</div>
+							<div class="masa-atomica">294 u</div>
+						</div>
+					</div>
+				</div>
+
+	            <div class="container">
+	<div class="row justify-content-center">
+	<div class="col-lg-6">
+		<h4 class="text-center">METALES DE TRANSICION INTERNA</h4>
+		<h5 class="text-center">BLOQUE - f</h5>
+	<div class="d-flex justify-content-center">
+		<div class="tabla-lantanidos">
+			<div class="fila-lantanidos">
+			<!-- Elemento Lantano -->
+			<h6 class="text-rotation">Lantanidos</h6>
+			<div class="elemento-lantanidos lantano"data-bs-toggle="modal" data-bs-target="#modalLantano">
+				<div class="simbolo">La</div>
+				<div class="nombre">Lantano</div>
+				<div class="informacion-extra">
+					<div class="numero-atomico">57</div>
+					<div class="masa-atomica">138.9 u</div>
+				</div>
+			</div>
+
+			<!-- Elemento Cerio -->
+			<div class="elemento-metales-transicion cerio" data-bs-toggle="modal"
+				data-bs-target="#modalCerio">
+				<div class="simbolo-metales-transicion">Ce</div>
+				<div class="nombre-metales-transicion">Cerio</div>
+				<div class="informacion-extra-metales-transicion">
+					<div class="numero-atomico-metales-transicion">58</div>
+					<div class="masa-atomica-metales-transicion">140.116 u</div>
+				</div>
+			</div>
+
+			<!-- Elemento Praseodimio -->
+			<div class="elemento-metales-transicion praseodimio" data-bs-toggle="modal"
+				data-bs-target="#modalPraseodimio">
+				<div class="simbolo-metales-transicion">Pr</div>
+				<div class="nombre-metales-transicion">Praseodimio</div>
+				<div class="informacion-extra-metales-transicion">
+					<div class="numero-atomico-metales-transicion">59</div>
+					<div class="masa-atomica-metales-transicion">140.907 u</div>
+				</div>
+			</div>
+
+			<!-- Elemento Neodimio -->
+			<div class="elemento-metales-transicion neodimio" data-bs-toggle="modal"
+				data-bs-target="#modalNeodimio">
+				<div class="simbolo-metales-transicion">Nd</div>
+				<div class="nombre-metales-transicion">Neodimio</div>
+				<div class="informacion-extra-metales-transicion">
+					<div class="numero-atomico-metales-transicion">60</div>
+					<div class="masa-atomica-metales-transicion">144.242 u</div>
+				</div>
+			</div>
+
+			<!-- Elemento Prometio -->
+			<div class="elemento-metales-transicion prometio" data-bs-toggle="modal"
+				data-bs-target="#modalPrometio">
+				<div class="simbolo-metales-transicion">Pm</div>
+				<div class="nombre-metales-transicion">Prometio</div>
+				<div class="informacion-extra-metales-transicion">
+					<div class="numero-atomico-metales-transicion">61</div>
+					<div class="masa-atomica-metales-transicion">145 u</div>
+				</div>
+			</div>
+
+			<!-- Elemento Samario -->
+			<div class="elemento-metales-transicion samario" data-bs-toggle="modal"
+				data-bs-target="#modalSamario">
+				<div class="simbolo-metales-transicion">Sm</div>
+				<div class="nombre-metales-transicion">Samario</div>
+				<div class="informacion-extra-metales-transicion">
+					<div class="numero-atomico-metales-transicion">62</div>
+					<div class="masa-atomica-metales-transicion">150.36 u</div>
+				</div>
+			</div>
+			<!-- Elemento Europio -->
+			<div class="elemento-metales-transicion europio" data-bs-toggle="modal"
+				data-bs-target="#modalEuropio">
+				<div class="simbolo-metales-transicion">Eu</div>
+				<div class="nombre-metales-transicion">Europio</div>
+				<div class="informacion-extra-metales-transicion">
+					<div class="numero-atomico-metales-transicion">63</div>
+					<div class="masa-atomica-metales-transicion">151.964 u</div>
+				</div>
+			</div>
+
+			<!-- Elemento Gadolinio -->
+			<div class="elemento-metales-transicion gadolinio" data-bs-toggle="modal"
+				data-bs-target="#modalGadolinio">
+				<div class="simbolo-metales-transicion">Gd</div>
+				<div class="nombre-metales-transicion">Gadolinio</div>
+				<div class="informacion-extra-metales-transicion">
+					<div class="numero-atomico-metales-transicion">64</div>
+					<div class="masa-atomica-metales-transicion">157.25 u</div>
+				</div>
+			</div>
+
+			<!-- Elemento Terbio -->
+			<div class="elemento-metales-transicion terbio" data-bs-toggle="modal"
+				data-bs-target="#modalTerbio">
+				<div class="simbolo-metales-transicion">Tb</div>
+				<div class="nombre-metales-transicion">Terbio</div>
+				<div class="informacion-extra-metales-transicion">
+					<div class="numero-atomico-metales-transicion">65</div>
+					<div class="masa-atomica-metales-transicion">158.925 u</div>
+				</div>
+			</div>
+
+			<!-- Elemento Disprosio -->
+			<div class="elemento-metales-transicion disprosio" data-bs-toggle="modal"
+				data-bs-target="#modalDisprosio">
+				<div class="simbolo-metales-transicion">Dy</div>
+				<div class="nombre-metales-transicion">Disprosio</div>
+				<div class="informacion-extra-metales-transicion">
+					<div class="numero-atomico-metales-transicion">66</div>
+					<div class="masa-atomica-metales-transicion">162.5 u</div>
+				</div>
+			</div>
+
+			<!-- Elemento Holmio -->
+			<div class="elemento-metales-transicion holmio" data-bs-toggle="modal"
+				data-bs-target="#modalHolmio">
+				<div class="simbolo-metales-transicion">Ho</div>
+				<div class="nombre-metales-transicion">Holmio</div>
+				<div class="informacion-extra-metales-transicion">
+					<div class="numero-atomico-metales-transicion">67</div>
+					<div class="masa-atomica-metales-transicion">164.930 u</div>
+				</div>
+			</div>
+
+			<!-- Elemento Erbio -->
+			<div class="elemento-metales-transicion erbio" data-bs-toggle="modal"
+				data-bs-target="#modalErbio">
+				<div class="simbolo-metales-transicion">Er</div>
+				<div class="nombre-metales-transicion">Erbio</div>
+				<div class="informacion-extra-metales-transicion">
+					<div class="numero-atomico-metales-transicion">68</div>
+					<div class="masa-atomica-metales-transicion">167.259 u</div>
+				</div>
+			</div>
+
+			<!-- Elemento Tulio -->
+			<div class="elemento-metales-transicion tulio" data-bs-toggle="modal"
+				data-bs-target="#modalTulio">
+				<div class="simbolo-metales-transicion">Tm</div>
+				<div class="nombre-metales-transicion">Tulio</div>
+				<div class="informacion-extra-metales-transicion">
+					<div class="numero-atomico-metales-transicion">69</div>
+					<div class="masa-atomica-metales-transicion">168.934 u</div>
+				</div>
+			</div>
+
+			<!-- Elemento Iterbio -->
+			<div class="elemento-metales-transicion iterbio" data-bs-toggle="modal"
+				data-bs-target="#modalIterbio">
+				<div class="simbolo-metales-transicion">Yb</div>
+				<div class="nombre-metales-transicion">Iterbio</div>
+				<div class="informacion-extra-metales-transicion">
+					<div class="numero-atomico-metales-transicion">70</div>
+					<div class="masa-atomica-metales-transicion">173.045 u</div>
+				</div>
+			</div>
+
+			<!-- Elemento Lutecio -->
+			<div class="elemento-metales-transicion lutecio" data-bs-toggle="modal"
+				data-bs-target="#modalLutecio">
+				<div class="simbolo-metales-transicion">Lu</div>
+				<div class="nombre-metales-transicion">Lutecio</div>
+				<div class="informacion-extra-metales-transicion">
+					<div class="numero-atomico-metales-transicion">71</div>
+					<div class="masa-atomica-metales-transicion">174.966 u</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+<div class="row justify-content-center">
+<div class="col-lg-6">
+<div class="d-flex justify-content-center">
+<div class="tabla-actinidos">
+	<div class="fila-actinidos">
+		<!-- Elemento Actinio -->
+		<h6 class="text-rotation">Actinido</h6>
+		<div class="elemento-actinidos actinio" data-bs-toggle="modal"
+			data-bs-target="#modalActinio">
+			<div class="simbolo-actinidos">Ac</div>
+			<div class="nombre-actinidos">Actinio</div>
+			<div class="informacion-extra-actinidos">
+				<div class="numero-atomico-actinidos">89</div>
+				<div class="masa-atomica-actinidos">227 u</div>
+			</div>
+		</div>
+
+		<!-- Elemento Torio -->
+		<div class="elemento-actinidos torio" data-bs-toggle="modal"
+			data-bs-target="#modalTorio">
+			<div class="simbolo-actinidos">Th</div>
+			<div class="nombre-actinidos">Torio</div>
+			<div class="informacion-extra-actinidos">
+				<div class="numero-atomico-actinidos">90</div>
+				<div class="masa-atomica-actinidos">232.038 u</div>
+			</div>
+		</div>
+
+		<!-- Elemento Protactinio -->
+		<div class="elemento-actinidos protactinio" data-bs-toggle="modal"
+			data-bs-target="#modalProtactinio">
+			<div class="simbolo-actinidos">Pa</div>
+			<div class="nombre-actinidos">Protactinio</div>
+			<div class="informacion-extra-actinidos">
+				<div class="numero-atomico-actinidos">91</div>
+				<div class="masa-atomica-actinidos">231.036 u</div>
+			</div>
+		</div>
+
+		<!-- Elemento Uranio -->
+		<div class="elemento-actinidos uranio" data-bs-toggle="modal"
+			data-bs-target="#modalUranio">
+			<div class="simbolo-actinidos">U</div>
+			<div class="nombre-actinidos">Uranio</div>
+			<div class="informacion-extra-actinidos">
+				<div class="numero-atomico-actinidos">92</div>
+				<div class="masa-atomica-actinidos">238.028 u</div>
+			</div>
+		</div>
+
+		<!-- Elemento Neptunio -->
+		<div class="elemento-actinidos neptunio" data-bs-toggle="modal"
+			data-bs-target="#modalNeptunio">
+			<div class="simbolo-actinidos">Np</div>
+			<div class="nombre-actinidos">Neptunio</div>
+			<div class="informacion-extra-actinidos">
+				<div class="numero-atomico-actinidos">93</div>
+				<div class="masa-atomica-actinidos">237 u</div>
+			</div>
+		</div>
+
+		<!-- Elemento Plutonio -->
+		<div class="elemento-actinidos plutonio" data-bs-toggle="modal"
+			data-bs-target="#modalPlutonio">
+			<div class="simbolo-actinidos">Pu</div>
+			<div class="nombre-actinidos">Plutonio</div>
+			<div class="informacion-extra-actinidos">
+				<div class="numero-atomico-actinidos">94</div>
+				<div class="masa-atomica-actinidos">244 u</div>
+			</div>
+		</div>
+
+		<!-- Elemento Americio -->
+		<div class="elemento-actinidos americio" data-bs-toggle="modal"
+			data-bs-target="#modalAmericio">
+			<div class="simbolo-actinidos">Am</div>
+			<div class="nombre-actinidos">Americio</div>
+			<div class="informacion-extra-actinidos">
+				<div class="numero-atomico-actinidos">95</div>
+				<div class="masa-atomica-actinidos">243 u</div>
+			</div>
+		</div>
+
+		<!-- Elemento Curio -->
+		<div class="elemento-actinidos curio" data-bs-toggle="modal"
+			data-bs-target="#modalCurio">
+			<div class="simbolo-actinidos">Cm</div>
+			<div class="nombre-actinidos">Curio</div>
+			<div class="informacion-extra-actinidos">
+				<div class="numero-atomico-actinidos">96</div>
+				<div class="masa-atomica-actinidos">247 u</div>
+			</div>
+		</div>
+
+		<!-- Elemento Berkelio -->
+		<div class="elemento-actinidos berkelio" data-bs-toggle="modal"
+			data-bs-target="#modalBerkelio">
+			<div class="simbolo-actinidos">Bk</div>
+			<div class="nombre-actinidos">Berkelio</div>
+			<div class="informacion-extra-actinidos">
+				<div class="numero-atomico-actinidos">97</div>
+				<div class="masa-atomica-actinidos">247 u</div>
+			</div>
+		</div>
+
+		<!-- Elemento Californio -->
+		<div class="elemento-actinidos californio" data-bs-toggle="modal"
+			data-bs-target="#modalCalifornio">
+			<div class="simbolo-actinidos">Cf</div>
+			<div class="nombre-actinidos">Californio</div>
+			<div class="informacion-extra-actinidos">
+				<div class="numero-atomico-actinidos">98</div>
+				<div class="masa-atomica-actinidos">251 u</div>
+			</div>
+		</div>
+
+		<!-- Elemento Einsteinio -->
+		<div class="elemento-actinidos einsteinio" data-bs-toggle="modal"
+			data-bs-target="#modalEinsteinio">
+			<div class="simbolo-actinidos">Es</div>
+			<div class="nombre-actinidos">Einsteinio</div>
+			<div class="informacion-extra-actinidos">
+				<div class="numero-atomico-actinidos">99</div>
+				<div class="masa-atomica-actinidos">252 u</div>
+			</div>
+		</div>
+
+		<!-- Elemento Fermio -->
+		<div class="elemento-actinidos fermio" data-bs-toggle="modal"
+			data-bs-target="#modalFermio">
+			<div class="simbolo-actinidos">Fm</div>
+			<div class="nombre-actinidos">Fermio</div>
+			<div class="informacion-extra-actinidos">
+				<div class="numero-atomico-actinidos">100</div>
+				<div class="masa-atomica-actinidos">257 u</div>
+			</div>
+		</div>
+
+		<!-- Elemento Mendelevio -->
+		<div class="elemento-actinidos mendelevio" data-bs-toggle="modal"
+			data-bs-target="#modalMendelevio">
+			<div class="simbolo-actinidos">Md</div>
+			<div class="nombre-actinidos">Mendelevio</div>
+			<div class="informacion-extra-actinidos">
+				<div class="numero-atomico-actinidos">101</div>
+				<div class="masa-atomica-actinidos">258 u</div>
+			</div>
+		</div>
+
+		<!-- Elemento Nobelio -->
+		<div class="elemento-actinidos nobelio" data-bs-toggle="modal"
+			data-bs-target="#modalNobelio">
+			<div class="simbolo-actinidos">No</div>
+			<div class="nombre-actinidos">Nobelio</div>
+			<div class="informacion-extra-actinidos">
+				<div class="numero-atomico-actinidos">102</div>
+				<div class="masa-atomica-actinidos">259 u</div>
+			</div>
+		</div>
+
+		<!-- Elemento Laurencio -->
+		<div class="elemento-actinidos laurencio" data-bs-toggle="modal"
+			data-bs-target="#modalLaurencio">
+			<div class="simbolo-actinidos">Lr</div>
+			<div class="nombre-actinidos">Laurencio</div>
+			<div class="informacion-extra-actinidos">
+				<div class="numero-atomico-actinidos">103</div>
+				<div class="masa-atomica-actinidos">(266) u</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+		<!-- Modales -->
+		<!-- Hidrógeno -->
+		<div class="modal fade" id="modalHidrogeno" tabindex="-1"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">
+						Información del Hidrógeno
+					</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"
+						aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<p><strong>Número Atómico:</strong> 1</p>
+					<p><strong>Símbolo:</strong> H</p>
+					<p><strong>Nombre:</strong> Hidrógeno</p>
+					<p><strong>Masa Atómica:</strong> 1.007 u</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary"
+						data-bs-dismiss="modal">
+						Cerrar
+					</button>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<!-- Helio -->
+		<div class="modal fade" id="modalHelio" tabindex="-1"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">
+						Información del Neon
+					</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"
+						aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<p><strong>Número Atómico:</strong> 2</p>
+					<p><strong>Símbolo:</strong> He</p>
+					<p><strong>Nombre:</strong> Helio</p>
+					<p><strong>Masa Atómica:</strong> 4.002 u</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary"
+						data-bs-dismiss="modal">
+						Cerrar
+					</button>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<!-- Litio -->
+		<div class="modal fade" id="modalLitio" tabindex="-1"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">
+						Información del Litio
+					</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"
+						aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<p><strong>Número Atómico:</strong> 3</p>
+					<p><strong>Símbolo:</strong> Li</p>
+					<p><strong>Nombre:</strong> Litio</p>
+					<p><strong>Masa Atómica:</strong> 6.941 u</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary"
+						data-bs-dismiss="modal">
+						Cerrar
+					</button>
+				</div>
+			</div>
+		</div>
+		</div>
+		<!-- Estroncio -->
+		<div class="modal fade" id="modalEstroncio" tabindex="-1"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">
+						Información del Estroncio
+					</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"
+						aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<p><strong>Número Atómico:</strong> 38</p>
+					<p><strong>Símbolo:</strong> Sr</p>
+					<p><strong>Nombre:</strong> Estroncio</p>
+					<p><strong>Masa Atómica:</strong> 87.62 u</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary"
+						data-bs-dismiss="modal">
+						Cerrar
+					</button>
+				</div>
+			</div>
+		</div>
+		</div>
+		<!-- Bario -->
+		<div class="modal fade" id="modalBario" tabindex="-1"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">
+						Información del Bario
+					</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"
+						aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<p><strong>Número Atómico:</strong> 56</p>
+					<p><strong>Símbolo:</strong> Ba</p>
+					<p><strong>Nombre:</strong> Bario</p>
+					<p><strong>Masa Atómica:</strong> 137.3 u</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary"
+						data-bs-dismiss="modal">
+						Cerrar
+					</button>
+				</div>
+			</div>
+		</div>
+		</div>
+		<!-- Radio -->
+		<div class="modal fade" id="modalRadio" tabindex="-1"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">
+						Información del Radio
+					</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"
+						aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<p><strong>Número Atómico:</strong> 88</p>
+					<p><strong>Símbolo:</strong> Ra</p>
+					<p><strong>Nombre:</strong> Radio</p>
+					<p><strong>Masa Atómica:</strong> 226 u</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary"
+						data-bs-dismiss="modal">
+						Cerrar
+					</button>
+				</div>
+			</div>
+		</div>
+		</div>
+		<!-- Itrio -->
+		<div class="modal fade" id="modalItrio" tabindex="-1"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">
+						Información del Itrio
+					</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"
+						aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<p><strong>Número Atómico:</strong> 39</p>
+					<p><strong>Símbolo:</strong> Y</p>
+					<p><strong>Nombre:</strong> Itrio</p>
+					<p><strong>Masa Atómica:</strong> 88.90 u</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary"
+						data-bs-dismiss="modal">
+						Cerrar
+					</button>
+				</div>
+			</div>
+		</div>
+		</div>
+		<!-- Lantanidos -->
+		<div class="modal fade" id="modalLantanidos" tabindex="-1"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">
+						Información del Lantanidos
+					</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"
+						aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<p><strong>Número Atómico:</strong> 57</p>
+					<p><strong>Numero Atomico:</strong> 71</p>
+					<p><strong>Nombre:</strong> Lantanidos</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary"
+						data-bs-dismiss="modal">
+						Cerrar
+					</button>
+				</div>
+			</div>
+		</div>
+		</div>
+		<!-- Actinidos -->
+		<div class="modal fade" id="modalActinidos" tabindex="-1"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">
+						Información del Actinidos
+					</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"
+						aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<p><strong>Número Atómico:</strong> 89</p>
+					<p><strong>Numero Atomico:</strong> 103</p>
+					<p><strong>Nombre:</strong> Actinidos</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary"
+						data-bs-dismiss="modal">
+						Cerrar
+					</button>
+				</div>
+			</div>
+		</div>
+		</div>
+		<!-- Zirconio -->
+		<div class="modal fade" id="modalZirconio" tabindex="-1"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">
+						Información del Zirconio
+					</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"
+						aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<p><strong>Número Atómico:</strong> 40</p>
+					<p><strong>Símbolo:</strong> Zr</p>
+					<p><strong>Nombre:</strong> Zirconio</p>
+					<p><strong>Masa Atómica:</strong> 91.22 u</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary"
+						data-bs-dismiss="modal">
+						Cerrar
+					</button>
+				</div>
+			</div>
+		</div>
+		</div>
+		<!-- Hafnio -->
+		<div class="modal fade" id="modalHafnio" tabindex="-1"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">
+						Información del Hafnio
+					</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"
+						aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<p><strong>Número Atómico:</strong> 72</p>
+					<p><strong>Símbolo:</strong> Hf</p>
+					<p><strong>Nombre:</strong> Hafnio</p>
+					<p><strong>Masa Atómica:</strong> 178.4 u</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary"
+						data-bs-dismiss="modal">
+						Cerrar
+					</button>
+				</div>
+			</div>
+		</div>
+		</div>
+		<!-- Neon -->
+		<div class="modal fade" id="modalNeon" tabindex="-1"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">
+						Información del Neon
+					</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"
+						aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<p><strong>Número Atómico:</strong> 10</p>
+					<p><strong>Símbolo:</strong> Ne</p>
+					<p><strong>Nombre:</strong> Neon</p>
+					<p><strong>Masa Atómica:</strong> 20.17 u</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary"
+						data-bs-dismiss="modal">
+						Cerrar
+					</button>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<!-- Sodio -->
+		<div class="modal fade" id="modalSodio" tabindex="-1"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">
+						Información del Sodio
+					</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"
+						aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<p><strong>Número Atómico:</strong> 11</p>
+					<p><strong>Símbolo:</strong> Na</p>
+					<p><strong>Nombre:</strong> Sodio</p>
+					<p><strong>Masa Atómica:</strong> 22.98 u</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary"
+						data-bs-dismiss="modal">
+						Cerrar
+					</button>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<!-- Potasio -->
+		<div class="modal fade" id="modalPotasio" tabindex="-1"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">
+						Información del Potasio
+					</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"
+						aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<p><strong>Número Atómico:</strong> 19</p>
+					<p><strong>Símbolo:</strong> K</p>
+					<p><strong>Nombre:</strong> Potasio</p>
+					<p><strong>Masa Atómica:</strong> 39.10 u</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary"
+						data-bs-dismiss="modal">
+						Cerrar
+					</button>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<!-- Rubidio -->
+		<div class="modal fade" id="modalRubidio" tabindex="-1"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">
+						Información del Rubidio
+					</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"
+						aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<p><strong>Número Atómico:</strong> 37</p>
+					<p><strong>Símbolo:</strong> Rb</p>
+					<p><strong>Nombre:</strong> Rubidio</p>
+					<p><strong>Masa Atómica:</strong> 85.46 u</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary"
+						data-bs-dismiss="modal">
+						Cerrar
+					</button>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<!-- Cesio -->
+		<div class="modal fade" id="modalCesio" tabindex="-1"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">
+						Información del Rubidio
+					</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"
+						aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<p><strong>Número Atómico:</strong> 55</p>
+					<p><strong>Símbolo:</strong> Cs</p>
+					<p><strong>Nombre:</strong> Cesio</p>
+					<p><strong>Masa Atómica:</strong> 132.90 u</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary"
+						data-bs-dismiss="modal">
+						Cerrar
+					</button>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<!-- Francio -->
+		<div class="modal fade" id="modalFrancio" tabindex="-1"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">
+						Información del Francio
+					</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"
+						aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<p><strong>Número Atómico:</strong> 87</p>
+					<p><strong>Símbolo:</strong> Fr</p>
+					<p><strong>Nombre:</strong> Francio</p>
+					<p><strong>Masa Atómica:</strong> 223 u</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary"
+						data-bs-dismiss="modal">
+						Cerrar
+					</button>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<!-- Berilio -->
+		<div class="modal fade" id="modalBerilio" tabindex="-1"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">
+						Información del Berilio
+					</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"
+						aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<p><strong>Número Atómico:</strong> 4</p>
+					<p><strong>Símbolo:</strong> Br</p>
+					<p><strong>Nombre:</strong> Berilio</p>
+					<p><strong>Masa Atómica:</strong> 9.012 u</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary"
+						data-bs-dismiss="modal">
+						Cerrar
+					</button>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<!-- Magnesio -->
+		<div class="modal fade" id="modalMagnesio" tabindex="-1"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">
+						Información del Magnesio
+					</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"
+						aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<p><strong>Número Atómico:</strong> 12</p>
+					<p><strong>Símbolo:</strong> Mg</p>
+					<p><strong>Nombre:</strong> Magnesio</p>
+					<p><strong>Masa Atómica:</strong> 24.30 u</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary"
+						data-bs-dismiss="modal">
+						Cerrar
+					</button>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<!-- Calcio -->
+		<div class="modal fade" id="modalCalcio" tabindex="-1"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">
+						Información del Calcio
+					</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"
+						aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<p><strong>Número Atómico:</strong> 20</p>
+					<p><strong>Símbolo:</strong> Ca</p>
+					<p><strong>Nombre:</strong> Calcio</p>
+					<p><strong>Masa Atómica:</strong> 40.07 u</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary"
+						data-bs-dismiss="modal">
+						Cerrar
+					</button>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<!-- Escandio -->
+		<div class="modal fade" id="modalEscandio" tabindex="-1"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">
+						Información del Escandio
+					</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"
+						aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<p><strong>Número Atómico:</strong> 21</p>
+					<p><strong>Símbolo:</strong> Sc</p>
+					<p><strong>Nombre:</strong> Escandio</p>
+					<p><strong>Masa Atómica:</strong> 44.95 u</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary"
+						data-bs-dismiss="modal">
+						Cerrar
+					</button>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<!-- Titanio -->
+		<div class="modal fade" id="modalTitanio" tabindex="-1"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">
+						Información del Titanio
+					</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"
+						aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<p><strong>Número Atómico:</strong> 22</p>
+					<p><strong>Símbolo:</strong> Ti</p>
+					<p><strong>Nombre:</strong> Titanio</p>
+					<p><strong>Masa Atómica:</strong> 47.86 u</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary"
+						data-bs-dismiss="modal">
+						Cerrar
+					</button>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<!-- Vanadio -->
+		<div class="modal fade" id="modalVanadio" tabindex="-1"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">
+						Información del Vanadio
+					</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"
+						aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<p><strong>Número Atómico:</strong> 23</p>
+					<p><strong>Símbolo:</strong> V</p>
+					<p><strong>Nombre:</strong> Vanadio</p>
+					<p><strong>Masa Atómica:</strong> 50.94 u</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary"
+						data-bs-dismiss="modal">
+						Cerrar
+					</button>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<!-- Cromo -->
+		<div class="modal fade" id="modalCromo" tabindex="-1"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">
+						Información del Cromo
+					</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"
+						aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<p><strong>Número Atómico:</strong> 24</p>
+					<p><strong>Símbolo:</strong> Cr</p>
+					<p><strong>Nombre:</strong> Cromo</p>
+					<p><strong>Masa Atómica:</strong> 51.99 u</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary"
+						data-bs-dismiss="modal">
+						Cerrar
+					</button>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<!-- Metales de Transicion Interna -->
+		<!-- Modal Lantano -->
+		<div class="modal fade" id="modalLantano" tabindex="-1"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">
+						Información del Lantano
+					</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"
+						aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<p><strong>Número Atómico:</strong> 57</p>
+					<p><strong>Símbolo:</strong> La</p>
+					<p><strong>Nombre:</strong> Lantano</p>
+					<p><strong>Masa Atómica:</strong> 138.905 u</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary"
+						data-bs-dismiss="modal">
+						Cerrar
+					</button>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<!-- Modal Actinio -->
+		<div class="modal fade" id="modalActinio" tabindex="-1"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">
+						Información del Actinio
+					</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"
+						aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<p><strong>Número Atómico:</strong> 89</p>
+					<p><strong>Símbolo:</strong> Ac</p>
+					<p><strong>Nombre:</strong> Actinio</p>
+					<p><strong>Masa Atómica:</strong> 227 u</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary"
+						data-bs-dismiss="modal">
+						Cerrar
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		</body>
+		</html>
