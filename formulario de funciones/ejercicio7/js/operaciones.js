@@ -1,4 +1,3 @@
-//con parametro
 function AreaCua(plado1,plado2){
     let lado1= plado1;
     let lado2= plado2;
