@@ -1,0 +1,19 @@
+{
+    "figuras": [
+        {
+            "tipo": "cuadrado",
+            "lado": 4
+        },
+        {
+            "tipo": "rectangulo",
+            "base": 5,
+            "altura": 3
+        },
+        {
+            "tipo": "triangulo",
+            "lado1": 3,
+            "lado2": 4,
+            "lado3": 5
+        }
+    ]
+}
